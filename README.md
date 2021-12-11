@@ -162,12 +162,17 @@ B14 (43) - checksum (XOR of bytes B0 to B13)
 
 Apparently the P-settings P00 to P04 are only used internally by the LCD for calculations 
 and actions done on its side (e.g. to determine the speed and present in the correct
-units).
+units), as these don't affect the values of the frames being transmitted.
 
-Regarding the gears it is still unknown how (and if) these are communicated to the speed 
-controller, as this data is not obviously visible in the frames sent by the LCD. There could 
-be a different type of frame being sent whenever the speed limit is reached, but this is yet 
-to be tested and observed.
+Regarding the gears it is still unknown how these are communicated to the speed controller, 
+as this data is not obviously visible in the frames sent by the LCD. There could be a 
+different type of frame being sent whenever the speed limit is reached, but this is yet 
+to be tested and observed. One possibility is that it could be obfuscated in B05. Because 
+manipulating this parameter would affect speed limits, it makes sense that in the protocol
+they might have taken that into account (for my particular scooter is irrelevant because
+it can run without limits just by flipping a switch). If it is the case, it is yet to be
+determined how the value is obfuscated/encrypted (take a look at the sample dumps under
+docs/serial_tap).
 
 2. ESC to LCD:
 
@@ -186,13 +191,17 @@ B02 (00) - Fixed (padding apparently)
 B03 (5b) - Entropy value (probably adopted as an extra measure to avoid framing errors). 
            The values in B04, B05 and B07 to B13 must be subtracted from this value to 
            obtain the payload. When value smaller than B03, add 0xFF.
+B04 (7e) - Contains the following flags:
+               b000000xx - Turbo  (xx = 11 -> on; x = 00 -> off)
+               b0000x000 - Regen  (x = 1 -> on; x = 0 -> off)
+               b00x00000 - Brakes (x = 1 -> on; x = 0 -> off)
 B04 (7e) - Subtract B03. Brakes and turbo mode flags: 0x20 - brakes on; 0x03 - turbo; 0x23 - brakes + turbo
 B05 (5b) - Subtract B03. Always reads 0x00
 B06 (00) - Fixed (padding apparently)
 B07 (5b) - Subtract B03. Proportional to wheel speed, most significant byte. 
-B08 (5b) - Subtract B03. Proportional to wheel speed, least significant byte.
+B08 (5b) - Subtract B03. Proportional to wheel speed, least significant byte (multiply by 1.33 to obtain speed in RPM).
 B09 (5b) - Subtract B03. Power/motor current most significant byte (?).
-B10 (65) - Subtract B03. Power/motor current least significant byte (?). Minimum value 0x0a when throttle pressed.
+B10 (65) - Subtract B03. Power/motor current least significant byte. Minimum value 0x0a when throttle pressed.
 B11 (6e) - Subtract B03. Usually reads 0x13. Battery voltage? Temperature?
 B12 (e3) - Subtract B03. Usually reads 0x87 or 0x88. Battery voltage? Temperature?
 B13 (5b) - Subtract B03. Always reads 0x00
@@ -238,7 +247,7 @@ in the stdout. The usage is:
 ```
 $ python3.8 rcv_lcd_requests.py /dev/ttyUSB1
 ```
-Where /dev/ttyUSB1 corresponds to the other USB serial adaptor (TX pin on the LCD). 
+In this case, /dev/ttyUSB1 corresponds to the other USB serial adaptor (TX pin on the LCD). 
 
 In order to help determine your exact device check the output of the lsusb and dmesg commands 
 after plugging in the adaptors.

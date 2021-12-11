@@ -2,12 +2,17 @@ import argparse
 import sys
 import binascii
 import serial
+import datetime
 
 FRAME_SIZE = 15
 PAYLOAD_SIZE = 9
 BAUD_RATE = 1200
 READ_TIMEOUT = 30
 WHEEL_PERIMETER = 0.8777
+
+FLAG_PAS = 1
+FLAG_CRUISE_CTL = 2
+FLAG_SOFT_START = 3
 
 parser = argparse.ArgumentParser(description='Listens to the requests sent by the e-Scooter JP LCD display via UART.')
 
@@ -33,6 +38,13 @@ frame_byte = 0
 payload_byte = 0
 is_beginning = True
 valid_frame = True
+last_frame = datetime.datetime.now()
+
+def decode_short(short_bytes):
+    return int.from_bytes(short_bytes, byteorder='big')
+
+def decode_flag(byte_val, position):
+    return byte_val >> position & b'\x01'[0]
 
 with serial.Serial(args.serial_port, BAUD_RATE, timeout=READ_TIMEOUT) as ser:
     while (byte := ser.read(1)):
@@ -51,7 +63,7 @@ with serial.Serial(args.serial_port, BAUD_RATE, timeout=READ_TIMEOUT) as ser:
         elif frame_byte == 2:
             # this is the frame sequence field
             frame_seq = byte[0]
-            print(f'Got frame nr: {int(frame_seq)}')
+            print(f'Got frame nr: {frame_seq}')
             if is_beginning and frame_seq != 2:
                 print(f'Got unexpected sequence in first frame: {frame_seq}')
                 valid_frame = False
@@ -81,7 +93,11 @@ with serial.Serial(args.serial_port, BAUD_RATE, timeout=READ_TIMEOUT) as ser:
         if frame_byte < 14 and valid_frame:
             checksum_calc = checksum_calc ^ byte[0]
             frame_byte += 1
-        else:
+        else:            
+            curr_frame = datetime.datetime.now()
+            delta_time = curr_frame - last_frame
+            last_frame = curr_frame
+
             # print the raw frame:
             print('Raw frame:  ' + binascii.hexlify(raw_frame, ' ').decode("utf-8"))
 
@@ -90,7 +106,11 @@ with serial.Serial(args.serial_port, BAUD_RATE, timeout=READ_TIMEOUT) as ser:
                 print("Checksums don't match:")
                 print(f'Parsed checksum: {checksum}')
                 print(f'Calculated checksum: {checksum_calc}')
-
+            else:
+                pas = decode_flag(raw_frame[6], FLAG_PAS)
+                cruise_ctl = decode_flag(raw_frame[6], FLAG_CRUISE_CTL)
+                soft_start = decode_flag(raw_frame[6], FLAG_SOFT_START)
+                print(f'Time lapse: {delta_time}; PAS: {pas}; Cruise Ctl: {cruise_ctl}; Soft start: {soft_start}; Power limit: {raw_frame[7]}; EABS: {raw_frame[10]}')
             frame_byte = 0
             checksum_calc = 0
             valid_frame = True
