@@ -12,21 +12,6 @@ that varies depending on the position of the shaft and the required torque. It i
 relatively complex  device which besides having to handle large amounts of power, it needs to 
 perform very fast switching of the current and operate in a closed loop. 
 
-Normally in order to estimate the position of the shaft, some kind of resolver is required. 
-One of the methods consists of measuring the output from the unpowered phase. When one of the 
-stator coils crosses a magnetic pole, a current pulse can be measured, therefore providing 
-feedback on the motor position. This is not however a very reliable method, as when the motor 
-is stopped, it is not possible to determine its position. This is because there is no induced 
-current when a magnet is stationary relative to a coil. BLDC motors using this approach will
-normally start "blindly" with low torque, and as soon as a signal is picked up by the unpowered
-phase, these will readjust the timings and continue at the desired torque. This method is
-good enough for applications that don't require full torque at zero RPM (e.g airplanes, helicopters,
-boats), but is inadequate where motors need to drive wheels and provide torque from stand still.
-In this case an external sensor is required. The cheapest and most common approach used in e-Scooters
-and other EV's consists of adding Hall Effect sensors to the motor stators. Depending on where
-the magnetic poles are located relative to these sensors, a very linear response is obtained.
-This provides a very good position estimation, regardless if the shaft is moving or not.
-
 There are several manufacturers producing ESC's for EV's in China, and normally there is very
 little technical information provided by these, other that the bare minimum required for 
 installation and usage. This makes it a challenge for example to understand which parts can
@@ -73,21 +58,29 @@ I was able to determine the purpose of each pin, which is basically:
 I learned that this unit has a Hall effect sensor for determining the position of the 
 throttle lever. The latter has a magnet that is moved relative to the sensor. Depending
 on the pole and distance of the magnet, the sensor will output a voltage between 1 and
-4 Volts approximately. This sensor is connected directly to this green output pin,
-and the LCD unit does not appear to do anything this this signal internally.
+4 Volts approximately. The sensor is connected directly to this green output pin,
+and the LCD unit does not appear to do anything with this signal internally.
 
-The TX and RX pins correspond to the serial (RS-232) communication between the LCD and the ESC.
-Data is transmitted at 1200 bps, 8-bits, no parity, and 1 stop bit.
+The unit is powered by a Renesas R7F0C001G 16-bit micro-controller, which directly drives
+the LCD screen, and takes care of the serial communication with the ESC.
+
+![JP LCD board front](/docs/esc/jp_lcd_board_f.jpg)
+
+![JP LCD board front](/docs/esc/jp_lcd_board_b.jpg)
+
+The TX and RX pins described above correspond to the serial (RS-232) communication 
+between the LCD and the ESC. Data is transmitted at 1200 bps, 8-bits, no parity, 
+and 1 stop bit.
 
 From what I could determine it is used for:
 
  *  sending settings (the P-settings which are permanently stored on the LCD) to the ESCs.
     These settings are sent constanty (several times per second) in each frame sent to
     the ESC;
- *  receiving status information from the ESC. So far I could determine that one frame
-    contains information such as: rear wheel speed (a value proportional to it), presence
-    of power applied to the rear motor, and brakes status. There are more values which
-    are yet to be identified.
+ *  receiving status information from the ESC. I have determine that one frame contains
+    at least: rear wheel speed (a value proportional to it), presence of power applied 
+    to the rear motor, brakes and turbo mode status. There are more values which are 
+    yet to be identified.
 
 At the moment it is still unclear how the gear information (gears 1, 2 and 3) is sent to 
 the ESC.
@@ -123,6 +116,12 @@ P09 - EABS (0-2): 2
 
 Each frame (transmitted by either the ESC or the LCD) is composed of 15 bytes, where 
 the last byte corresponds to the checksum (XOR) of the previous bytes. 
+
+There is apparently no synchronism between the frames sent by the LCD and 
+those sent by the ESC (not request-reply protocol), and the flow of frames from 
+the LCD to the ESC is much greater than those sent by the ESC. There is also
+no obvious relationship between sequence numbers in transmitted vs received 
+frames.
 
 The frames have the following structure:
 
@@ -199,6 +198,50 @@ B12 (e3) - Subtract B03. Usually reads 0x87 or 0x88. Battery voltage? Temperatur
 B13 (5b) - Subtract B03. Always reads 0x00
 B14 (b9) - checksum (XOR of bytes B0 to B13)
 ```
+
+## Serial data tap
+
+In order to reverse engineer the protocol, I have written a couple of python scripts
+that will eavesdrop on the communication between the ESC and the LCD.
+
+### Hardware connection and cables
+
+The setup for receiving the two communication flows (ESC to LCD and LCD to ESC) is very
+simple: I used a couple of Serial to USB adaptor boards capable of handling 5 Volt
+TTL levels, and connected the RX pin of each, to each of the serial lines. In order to
+minimize impact on the communication, I added a 1K Ohm resistor between each adaptor 
+and the serial line.
+
+![ESC Serial tap](/docs/serial_tap/lcd_esc_serial_tap.jpg)
+
+Each adaptor is connected to the host PC where the Python scripts will be used:
+
+![ESC Serial tap connection](/docs/serial_tap/serial_tap_connection.jpg)
+
+### Python scripts usage
+
+There is one script for parsing each of the data streams. These scripts require **Python 3.8**.
+
+
+The script **rcv_esc_responses.py** parses the frames sent by the ESC and presents the data
+in the stdout. The usage is:
+
+```
+$ python3.8 rcv_esc_responses.py /dev/ttyUSB0
+```
+
+Where /dev/ttyUSB0 is the USB serial adaptor that is connected to the RX on the LCD side.
+
+The script **rcv_lcd_requests.py** parses the frames sent by the LCD and presents the data
+in the stdout. The usage is:
+
+```
+$ python3.8 rcv_lcd_requests.py /dev/ttyUSB1
+```
+Where /dev/ttyUSB1 corresponds to the other USB serial adaptor (TX pin on the LCD). 
+
+In order to help determine your exact device check the output of the lsusb and dmesg commands 
+after plugging in the adaptors.
 
 
 ## References
