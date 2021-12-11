@@ -1,0 +1,2588 @@
+lteixeira@lteixeira-pc:~/projects/scooters/escooter-lcd-esc-decode$ python3.8 rcv_esc_responses.py /dev/ttyUSB0
+Unexpected first byte: b'\x00'
+Raw frame:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'\x00'
+Raw frame:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'\x00'
+Raw frame:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'\x01'
+Raw frame:  01 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'\x00'
+Raw frame:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'#'
+Raw frame:  23 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'&'
+Raw frame:  26 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'#'
+Raw frame:  23 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'\x00'
+Raw frame:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'#'
+Raw frame:  23 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'#'
+Raw frame:  23 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'#'
+Raw frame:  23 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'#'
+Raw frame:  23 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Got frame nr: 171
+Got unexpected sequence in first frame: 171
+Raw frame:  36 ab 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 54
+Unexpected first byte: b'#'
+Raw frame:  23 ab 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Unexpected first byte: b'\xaf'
+Raw frame:  af ab 00 00 00 00 00 00 00 00 00 00 00 00 00
+Checksums don't match:
+Parsed checksum: 0
+Calculated checksum: 0
+Got frame nr: 2
+Raw frame:  36 02 00 5c 5c 5c 00 5c 5c 5c 5c 6f e4 5c bf
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417533; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 3
+Raw frame:  36 03 00 21 21 21 00 21 21 21 21 34 a9 21 a8
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418013; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 4
+Raw frame:  36 04 00 2a 2a 2a 00 2a 2a 2a 2a 3d b2 2a bd
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417643; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 5
+Raw frame:  36 05 00 2f 2f 2f 00 2f 2f 2f 2f 42 b7 2f c6
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417501; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 6
+Raw frame:  36 06 00 28 28 28 00 28 28 28 28 3b b0 28 bb
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418080; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 7
+Raw frame:  36 07 00 2d 2d 2d 00 2d 2d 2d 2d 40 b5 2d c4
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417515; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 8
+Raw frame:  36 08 00 26 26 26 00 26 26 26 26 39 ae 26 a9
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417593; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 9
+Raw frame:  36 09 00 2b 2b 2b 00 2b 2b 2b 2b 3e b3 2b b2
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417725; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 10
+Raw frame:  36 0a 00 24 24 24 00 24 24 24 24 37 ac 24 a7
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417777; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 11
+Raw frame:  36 0b 00 29 49 29 00 29 29 29 33 3c b1 29 ca
+Padding bytes: 0 0
+Converted payload: 20 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417503; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 0; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 12
+Raw frame:  36 0c 00 52 72 52 00 52 52 52 5c 65 da 52 ab
+Padding bytes: 0 0
+Converted payload: 20 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417949; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 0; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 13
+Raw frame:  36 0d 00 57 77 57 00 57 57 57 61 6a df 57 98
+Padding bytes: 0 0
+Converted payload: 20 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417587; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 0; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 14
+Raw frame:  36 0e 00 50 70 50 00 50 50 50 5a 63 d8 50 a9
+Padding bytes: 0 0
+Converted payload: 20 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417883; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 0; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 15
+Raw frame:  36 0f 00 55 75 55 00 55 55 55 5f 68 dd 55 a6
+Padding bytes: 0 0
+Converted payload: 20 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417859; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 0; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 16
+Raw frame:  36 10 00 4e 6e 4e 00 4e 4e 4e 58 61 d6 4e a7
+Padding bytes: 0 0
+Converted payload: 20 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417677; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 0; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 17
+Raw frame:  36 11 00 53 53 53 00 53 53 53 53 66 db 53 9a
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417777; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 18
+Raw frame:  36 12 00 4c 4c 4c 00 4c 4c 4c 4c 5f d4 4c af
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417684; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 19
+Raw frame:  36 13 00 51 51 51 00 51 51 51 51 64 d9 51 98
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417615; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 20
+Raw frame:  36 14 00 5a 5a 5a 00 5a 5a 5a 5a 6d e2 5a ad
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417923; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 21
+Raw frame:  36 15 00 5f 5f 5f 00 5f 5f 5f 5f 72 e7 5f b6
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417634; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 22
+Raw frame:  36 16 00 58 58 58 00 58 58 58 58 6b e0 58 ab
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417956; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 23
+Raw frame:  36 17 00 5d 5d 5d 00 5d 5d 5d 5d 70 e5 5d b4
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417560; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 24
+Raw frame:  36 18 00 56 56 56 00 56 56 56 56 69 de 56 99
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417769; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 25
+Raw frame:  36 19 00 5b 5b 5b 00 5b 5b 5b 5b 6e e3 5b a2
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417704; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 26
+Raw frame:  36 1a 00 54 54 54 00 54 54 54 54 67 dc 54 97
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417841; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 27
+Raw frame:  36 1b 00 59 59 59 00 59 59 59 59 6c e1 59 a0
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417578; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 28
+Raw frame:  36 1c 00 02 02 02 00 02 02 02 02 15 8a 02 b5
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417881; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 29
+Raw frame:  36 1d 00 07 07 07 00 07 07 07 07 1a 8f 07 be
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417612; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 30
+Raw frame:  36 1e 00 00 00 00 00 00 00 00 00 13 88 00 b3
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417931; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 31
+Raw frame:  36 1f 00 05 05 05 00 05 05 05 05 18 8d 05 bc
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417543; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 32
+Raw frame:  36 20 00 3e 3e 3e 00 3e 3e 3e 3e 51 c6 3e 81
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417742; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 33
+Raw frame:  36 21 00 03 03 03 00 03 03 03 03 16 8b 03 8a
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417851; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 34
+Raw frame:  36 22 00 3c 3c 3c 00 3c 3c 3c 3c 4f c4 3c 9f
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417615; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 35
+Raw frame:  36 23 00 01 01 01 00 01 01 01 01 14 89 01 88
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417728; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 36
+Raw frame:  36 24 00 0a 0a 0a 00 0a 0a 0a 0a 1d 92 0a 9d
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417760; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 37
+Raw frame:  36 25 00 0f 0f 0f 00 0f 0f 0f 0f 22 97 0f a6
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417752; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 38
+Raw frame:  36 26 00 08 08 08 00 08 08 08 08 1b 90 08 9b
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417899; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 39
+Raw frame:  36 27 00 0d 0d 0d 00 0d 0d 0d 0d 20 95 0d a4
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417691; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 40
+Raw frame:  36 28 00 06 06 06 00 06 06 06 06 19 8e 06 89
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417668; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 41
+Raw frame:  36 29 00 0b 0b 0b 00 0b 0b 0b 0b 1e 93 0b 92
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417973; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 42
+Raw frame:  36 2a 00 04 04 04 00 04 04 04 04 17 8c 04 87
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417570; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 43
+Raw frame:  36 2b 00 09 09 09 00 09 09 09 09 1c 91 09 90
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417904; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 44
+Raw frame:  36 2c 00 32 32 32 00 32 32 32 32 45 ba 32 e5
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417851; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 45
+Raw frame:  36 2d 00 37 37 37 00 37 37 37 37 4a bf 37 ee
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417523; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 46
+Raw frame:  36 2e 00 30 30 30 00 30 30 30 30 43 b8 30 e3
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417871; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 47
+Raw frame:  36 2f 00 35 38 35 00 35 35 35 35 48 bd 35 e1
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417824; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 48
+Raw frame:  36 30 00 2e 31 2e 00 2e 2e 2e 2e 41 b6 2e ee
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417579; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 49
+Raw frame:  36 31 00 33 36 33 00 33 33 33 33 46 bb 33 ff
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417916; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 50
+Raw frame:  36 32 00 2c 2f 2c 00 2c 2c 2c 2c 3f b4 2c 8c
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417622; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 51
+Raw frame:  36 33 00 31 34 31 00 31 31 31 31 44 b9 31 fd
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417897; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 52
+Raw frame:  36 34 00 3a 3d 3a 00 3a 3a 3a 3a 4d c2 3a 8a
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417731; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 53
+Raw frame:  36 35 00 3f 42 3f 00 3f 3f 3f 3f 52 c7 3f eb
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417566; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 54
+Raw frame:  36 36 00 38 3b 38 00 38 38 38 38 4b c0 38 88
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417977; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 55
+Raw frame:  36 37 00 3d 3d 3d 00 3d 3d 3d 3d 50 c5 3d 94
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417706; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 56
+Raw frame:  36 38 00 36 36 36 00 36 36 36 36 49 be 36 f9
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417775; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 57
+Raw frame:  36 39 00 3b 3b 3b 00 3b 3b 3b 3b 4e c3 3b 82
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417780; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 58
+Raw frame:  36 3a 00 34 34 34 00 34 34 34 34 47 bc 34 f7
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417637; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 59
+Raw frame:  36 3b 00 39 39 39 00 39 39 39 39 4c c1 39 80
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417873; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 60
+Raw frame:  36 3c 00 62 62 62 00 62 62 62 62 75 ea 62 95
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417721; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 61
+Raw frame:  36 3d 00 67 67 67 00 67 67 67 67 7a ef 67 9e
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417705; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 62
+Raw frame:  36 3e 00 60 60 60 00 60 60 60 60 73 e8 60 93
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417865; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 63
+Raw frame:  36 3f 00 65 65 65 00 65 65 65 65 78 ed 65 9c
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417741; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 64
+Raw frame:  36 40 00 1e 1e 1e 00 1e 1e 1e 1e 31 a6 1e e1
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417872; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 65
+Raw frame:  36 41 00 63 63 63 00 63 63 63 63 76 eb 63 ea
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417807; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 66
+Raw frame:  36 42 00 1c 1c 1c 00 1c 1c 1c 26 2f a4 1c c5
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.418219; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 67
+Raw frame:  36 43 00 61 61 61 00 61 79 61 6b 74 e9 61 fa
+Padding bytes: 0 0
+Converted payload: 00 00 00 18 00 0a 13 88 00
+Time lapse: 0:00:00.418388; Wheel spin: 24; Speed: 1.7; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 68
+Raw frame:  36 44 00 6a 6a 6a 00 6a 82 6a 74 7d f2 6a 0b
+Padding bytes: 0 0
+Converted payload: 00 00 00 18 00 0a 13 88 00
+Time lapse: 0:00:00.418326; Wheel spin: 24; Speed: 1.7; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 69
+Raw frame:  36 45 00 6f 6f 6f 00 6f b3 6f 79 82 f7 6f cc
+Padding bytes: 0 0
+Converted payload: 00 00 00 44 00 0a 13 88 00
+Time lapse: 0:00:00.419993; Wheel spin: 68; Speed: 4.8; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 70
+Raw frame:  36 46 00 68 68 68 00 68 b8 68 72 7b f0 68 31
+Padding bytes: 0 0
+Converted payload: 00 00 00 50 00 0a 13 88 00
+Time lapse: 0:00:00.420312; Wheel spin: 80; Speed: 5.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 71
+Raw frame:  36 47 00 6d 6d 6d 00 6d d5 6d 77 80 f5 6d a6
+Padding bytes: 0 0
+Converted payload: 00 00 00 68 00 0a 13 88 00
+Time lapse: 0:00:00.421351; Wheel spin: 104; Speed: 7.3; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 72
+Raw frame:  36 48 00 66 66 66 00 66 ea 66 70 79 ee 66 73
+Padding bytes: 0 0
+Converted payload: 00 00 00 84 00 0a 13 88 00
+Time lapse: 0:00:00.421825; Wheel spin: 132; Speed: 9.2; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 73
+Raw frame:  36 49 00 6b 6b 6b 00 6b 07 6b 75 7e f3 6b 80
+Padding bytes: 0 0
+Converted payload: 00 00 00 9b 00 0a 13 88 00
+Time lapse: 0:00:00.421199; Wheel spin: 155; Speed: 10.9; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 74
+Raw frame:  36 4a 00 64 6c 64 00 64 28 64 64 77 ec 64 a3
+Padding bytes: 0 0
+Converted payload: 08 00 00 c3 00 00 13 88 00
+Time lapse: 0:00:00.422306; Wheel spin: 195; Speed: 13.7; Power: 0; Turbo: 0; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 75
+Raw frame:  36 4b 00 69 71 69 00 69 ed 69 69 7c f1 69 6c
+Padding bytes: 0 0
+Converted payload: 08 00 00 84 00 00 13 88 00
+Time lapse: 0:00:00.420341; Wheel spin: 132; Speed: 9.2; Power: 0; Turbo: 0; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 76
+Raw frame:  36 4c 00 12 12 12 00 12 6a 12 12 25 9a 12 bd
+Padding bytes: 0 0
+Converted payload: 00 00 00 58 00 00 13 88 00
+Time lapse: 0:00:00.419720; Wheel spin: 88; Speed: 6.2; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 77
+Raw frame:  36 4d 00 17 17 17 00 17 4b 17 17 2a 9f 17 92
+Padding bytes: 0 0
+Converted payload: 00 00 00 34 00 00 13 88 00
+Time lapse: 0:00:00.418606; Wheel spin: 52; Speed: 3.6; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 78
+Raw frame:  36 4e 00 10 10 10 00 10 18 10 10 23 98 10 cb
+Padding bytes: 0 0
+Converted payload: 00 00 00 08 00 00 13 88 00
+Time lapse: 0:00:00.417683; Wheel spin: 8; Speed: 0.6; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 79
+Raw frame:  36 4f 00 15 15 15 00 15 15 15 15 28 9d 15 cc
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418059; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 80
+Raw frame:  36 50 00 0e 0e 0e 00 0e 16 0e 18 21 96 0e df
+Padding bytes: 0 0
+Converted payload: 00 00 00 08 00 0a 13 88 00
+Time lapse: 0:00:00.418729; Wheel spin: 8; Speed: 0.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 81
+Raw frame:  36 51 00 13 13 13 00 13 47 13 1d 26 9b 13 80
+Padding bytes: 0 0
+Converted payload: 00 00 00 34 00 0a 13 88 00
+Time lapse: 0:00:00.419001; Wheel spin: 52; Speed: 3.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 82
+Raw frame:  36 52 00 0c 0c 0c 00 0c 4c 0c 16 1f 94 0c b5
+Padding bytes: 0 0
+Converted payload: 00 00 00 40 00 0a 13 88 00
+Time lapse: 0:00:00.419310; Wheel spin: 64; Speed: 4.5; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 83
+Raw frame:  36 53 00 11 11 11 00 11 7d 11 1b 24 99 11 be
+Padding bytes: 0 0
+Converted payload: 00 00 00 6c 00 0a 13 88 00
+Time lapse: 0:00:00.420464; Wheel spin: 108; Speed: 7.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 84
+Raw frame:  36 54 00 1a 1a 1a 00 1a 96 1a 24 2d a2 1a 5f
+Padding bytes: 0 0
+Converted payload: 00 00 00 7c 00 0a 13 88 00
+Time lapse: 0:00:00.419599; Wheel spin: 124; Speed: 8.7; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 85
+Raw frame:  36 55 00 1f 1f 1f 00 1f 9b 1f 29 32 a7 1f 44
+Padding bytes: 0 0
+Converted payload: 00 00 00 7c 00 0a 13 88 00
+Time lapse: 0:00:00.419300; Wheel spin: 124; Speed: 8.7; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 86
+Raw frame:  36 56 00 18 18 18 00 18 a0 18 22 2b a0 18 69
+Padding bytes: 0 0
+Converted payload: 00 00 00 88 00 0a 13 88 00
+Time lapse: 0:00:00.421379; Wheel spin: 136; Speed: 9.5; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 87
+Raw frame:  36 57 00 1d 1d 1d 00 1d b1 1d 27 30 a5 1d 62
+Padding bytes: 0 0
+Converted payload: 00 00 00 94 00 0a 13 88 00
+Time lapse: 0:00:00.419823; Wheel spin: 148; Speed: 10.4; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 88
+Raw frame:  36 58 00 16 16 16 00 16 ae 16 20 29 9e 16 57
+Padding bytes: 0 0
+Converted payload: 00 00 00 98 00 0a 13 88 00
+Time lapse: 0:00:00.421504; Wheel spin: 152; Speed: 10.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 89
+Raw frame:  36 59 00 1b 1b 1b 00 1b b3 1b 25 2e a3 1b 74
+Padding bytes: 0 0
+Converted payload: 00 00 00 98 00 0a 13 88 00
+Time lapse: 0:00:00.421626; Wheel spin: 152; Speed: 10.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 90
+Raw frame:  36 5a 00 14 14 14 00 14 ac 14 1e 27 9c 14 65
+Padding bytes: 0 0
+Converted payload: 00 00 00 98 00 0a 13 88 00
+Time lapse: 0:00:00.421929; Wheel spin: 152; Speed: 10.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 91
+Raw frame:  36 5b 00 19 19 19 00 19 b1 19 23 2c a1 19 72
+Padding bytes: 0 0
+Converted payload: 00 00 00 98 00 0a 13 88 00
+Time lapse: 0:00:00.419400; Wheel spin: 152; Speed: 10.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 92
+Raw frame:  36 5c 00 42 42 42 00 42 da 42 4c 55 ca 42 63
+Padding bytes: 0 0
+Converted payload: 00 00 00 98 00 0a 13 88 00
+Time lapse: 0:00:00.421860; Wheel spin: 152; Speed: 10.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 93
+Raw frame:  36 5d 00 47 47 47 00 47 e3 47 51 5a cf 47 4c
+Padding bytes: 0 0
+Converted payload: 00 00 00 9c 00 0a 13 88 00
+Time lapse: 0:00:00.420421; Wheel spin: 156; Speed: 10.9; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 94
+Raw frame:  36 5e 00 40 40 40 00 40 d8 40 4a 53 c8 40 61
+Padding bytes: 0 0
+Converted payload: 00 00 00 98 00 0a 13 88 00
+Time lapse: 0:00:00.419580; Wheel spin: 152; Speed: 10.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 95
+Raw frame:  36 5f 00 45 45 45 00 45 dd 45 4f 58 cd 45 6e
+Padding bytes: 0 0
+Converted payload: 00 00 00 98 00 0a 13 88 00
+Time lapse: 0:00:00.419246; Wheel spin: 152; Speed: 10.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 96
+Raw frame:  36 60 00 7e 7e 7e 00 7e 2e 7e 88 91 06 7e 67
+Padding bytes: 0 0
+Converted payload: 00 00 00 af 00 0a 13 87 00
+Time lapse: 0:00:00.422009; Wheel spin: 175; Speed: 12.3; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 97
+Raw frame:  36 61 00 43 43 43 00 43 f7 43 4d 56 cb 43 70
+Padding bytes: 0 0
+Converted payload: 00 00 00 b4 00 0a 13 88 00
+Time lapse: 0:00:00.420374; Wheel spin: 180; Speed: 12.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 98
+Raw frame:  36 62 00 7c 7c 7c 00 7c 34 7c 86 8f 04 7c 6d
+Padding bytes: 0 0
+Converted payload: 00 00 00 b7 00 0a 13 87 00
+Time lapse: 0:00:00.421655; Wheel spin: 183; Speed: 12.8; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 99
+Raw frame:  36 63 00 41 41 41 00 41 f9 41 4b 54 c9 41 7a
+Padding bytes: 0 0
+Converted payload: 00 00 00 b8 00 0a 13 88 00
+Time lapse: 0:00:00.421645; Wheel spin: 184; Speed: 12.9; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 100
+Raw frame:  36 64 00 4a 4a 4a 00 4a 02 4a 54 5d d2 4a 8b
+Padding bytes: 0 0
+Converted payload: 00 00 00 b7 00 0a 13 88 00
+Time lapse: 0:00:00.420907; Wheel spin: 183; Speed: 12.8; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 101
+Raw frame:  36 65 00 4f 4f 4f 00 4f 07 4f 59 62 d7 4f b8
+Padding bytes: 0 0
+Converted payload: 00 00 00 b7 00 0a 13 88 00
+Time lapse: 0:00:00.419813; Wheel spin: 183; Speed: 12.8; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 102
+Raw frame:  36 66 00 48 48 48 00 48 00 48 52 5b d0 48 89
+Padding bytes: 0 0
+Converted payload: 00 00 00 b7 00 0a 13 88 00
+Time lapse: 0:00:00.422246; Wheel spin: 183; Speed: 12.8; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 103
+Raw frame:  36 67 00 4d 4d 4d 00 4d 05 4d 57 60 d5 4d b6
+Padding bytes: 0 0
+Converted payload: 00 00 00 b7 00 0a 13 88 00
+Time lapse: 0:00:00.421738; Wheel spin: 183; Speed: 12.8; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 104
+Raw frame:  36 68 00 46 46 46 00 46 fe 46 50 59 ce 46 67
+Padding bytes: 0 0
+Converted payload: 00 00 00 b8 00 0a 13 88 00
+Time lapse: 0:00:00.422146; Wheel spin: 184; Speed: 12.9; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 105
+Raw frame:  36 69 00 4b 4b 4b 00 4b 07 4b 55 5e d3 4b 80
+Padding bytes: 0 0
+Converted payload: 00 00 00 bb 00 0a 13 88 00
+Time lapse: 0:00:00.421793; Wheel spin: 187; Speed: 13.1; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 106
+Raw frame:  36 6a 00 44 44 44 00 44 00 44 4e 57 cc 44 89
+Padding bytes: 0 0
+Converted payload: 00 00 00 bb 00 0a 13 88 00
+Time lapse: 0:00:00.420480; Wheel spin: 187; Speed: 13.1; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 107
+Raw frame:  36 6b 00 49 49 49 00 49 01 49 53 5c d1 49 82
+Padding bytes: 0 0
+Converted payload: 00 00 00 b7 00 0a 13 88 00
+Time lapse: 0:00:00.419258; Wheel spin: 183; Speed: 12.8; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 108
+Raw frame:  36 6c 00 72 72 72 00 72 2a 72 7c 85 fa 72 73
+Padding bytes: 0 0
+Converted payload: 00 00 00 b7 00 0a 13 88 00
+Time lapse: 0:00:00.420072; Wheel spin: 183; Speed: 12.8; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 109
+Raw frame:  36 6d 00 77 77 77 00 77 33 77 81 8a ff 77 9c
+Padding bytes: 0 0
+Converted payload: 00 00 00 bb 00 0a 13 88 00
+Time lapse: 0:00:00.420315; Wheel spin: 187; Speed: 13.1; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 110
+Raw frame:  36 6e 00 70 78 70 00 70 18 70 70 83 f8 70 43
+Padding bytes: 0 0
+Converted payload: 08 00 00 a7 00 00 13 88 00
+Time lapse: 0:00:00.420618; Wheel spin: 167; Speed: 11.7; Power: 0; Turbo: 0; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 111
+Raw frame:  36 6f 00 75 75 75 00 75 e1 75 75 88 fd 75 b8
+Padding bytes: 0 0
+Converted payload: 00 00 00 6c 00 00 13 88 00
+Time lapse: 0:00:00.420193; Wheel spin: 108; Speed: 7.6; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 112
+Raw frame:  36 70 00 6e 6e 6e 00 6e b6 6e 6e 81 f6 6e e9
+Padding bytes: 0 0
+Converted payload: 00 00 00 48 00 00 13 88 00
+Time lapse: 0:00:00.419353; Wheel spin: 72; Speed: 5.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 113
+Raw frame:  36 71 00 73 73 73 00 73 93 73 73 86 fb 73 da
+Padding bytes: 0 0
+Converted payload: 00 00 00 20 00 00 13 88 00
+Time lapse: 0:00:00.417941; Wheel spin: 32; Speed: 2.2; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 114
+Raw frame:  36 72 00 6c 6c 6c 00 6c 6c 6c 6c 7f f4 6c cf
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417700; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 115
+Raw frame:  36 73 00 71 71 71 00 71 71 71 71 84 f9 71 38
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417941; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 116
+Raw frame:  36 74 00 7a 7a 7a 00 7a 7a 7a 7a 8d 02 7a cd
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 87 00
+Time lapse: 0:00:00.417564; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 117
+Raw frame:  36 75 00 7f 7f 7f 00 7f 7f 7f 7f 92 07 7f d6
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 87 00
+Time lapse: 0:00:00.417944; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 118
+Raw frame:  36 76 00 78 78 78 00 78 78 78 78 8b 00 78 cb
+Padding bytes: 0 0
+Converted payload: 00 00 00 00 00 00 13 87 00
+Time lapse: 0:00:00.418154; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 119
+Raw frame:  36 77 00 7d 7d 7d 00 7d ad 7d 87 90 05 7d fe
+Padding bytes: 0 0
+Converted payload: 00 00 00 30 00 0a 13 87 00
+Time lapse: 0:00:00.421200; Wheel spin: 48; Speed: 3.4; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 120
+Raw frame:  36 78 00 76 76 76 00 76 1e 76 80 89 fe 76 a7
+Padding bytes: 0 0
+Converted payload: 00 00 00 a7 00 0a 13 88 00
+Time lapse: 0:00:00.422006; Wheel spin: 167; Speed: 11.7; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 121
+Raw frame:  36 79 00 7b 7b 7b 00 7c f3 7b 85 8e 03 7b b3
+Padding bytes: 0 0
+Converted payload: 00 00 01 78 00 0a 13 87 00
+Time lapse: 0:00:00.422061; Wheel spin: 376; Speed: 26.3; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 122
+Raw frame:  36 7a 00 74 7c 74 00 75 d0 74 74 87 fc 74 9a
+Padding bytes: 0 0
+Converted payload: 08 00 01 5c 00 00 13 88 00
+Time lapse: 0:00:00.421898; Wheel spin: 348; Speed: 24.4; Power: 0; Turbo: 0; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 123
+Raw frame:  36 7b 00 79 81 79 00 7a 99 79 79 8c 01 79 db
+Padding bytes: 0 0
+Converted payload: 08 00 01 20 00 00 13 87 00
+Time lapse: 0:00:00.421963; Wheel spin: 288; Speed: 20.2; Power: 0; Turbo: 0; Regen: 1; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 124
+Raw frame:  36 7c 00 22 2a 22 00 22 f6 22 22 35 aa 22 09
+Padding bytes: 0 0
+Converted payload: 08 00 00 d4 00 00 13 88 00
+Time lapse: 0:00:00.422550; Wheel spin: 212; Speed: 14.8; Power: 0; Turbo: 0; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 125
+Raw frame:  36 7d 00 27 2f 27 00 27 cb 27 27 3a af 27 3a
+Padding bytes: 0 0
+Converted payload: 08 00 00 a4 00 00 13 88 00
+Time lapse: 0:00:00.421624; Wheel spin: 164; Speed: 11.5; Power: 0; Turbo: 0; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 126
+Raw frame:  36 7e 00 20 20 20 00 20 98 20 20 33 a8 20 6b
+Padding bytes: 0 0
+Converted payload: 00 00 00 78 00 00 13 88 00
+Time lapse: 0:00:00.420088; Wheel spin: 120; Speed: 8.4; Power: 0; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 127
+Raw frame:  36 7f 00 25 25 25 00 25 b5 25 2f 38 ad 25 46
+Padding bytes: 0 0
+Converted payload: 00 00 00 90 00 0a 13 88 00
+Time lapse: 0:00:00.421561; Wheel spin: 144; Speed: 10.1; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 128
+Raw frame:  36 80 00 5e 5e 5e 00 5e 3e 5e 68 71 e6 5e 77
+Padding bytes: 0 0
+Converted payload: 00 00 00 df 00 0a 13 88 00
+Time lapse: 0:00:00.420741; Wheel spin: 223; Speed: 15.6; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 129
+Raw frame:  36 81 00 23 23 23 00 24 67 23 2d 36 ab 23 67
+Padding bytes: 0 0
+Converted payload: 00 00 01 44 00 0a 13 88 00
+Time lapse: 0:00:00.422879; Wheel spin: 324; Speed: 22.7; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 130
+Raw frame:  36 82 00 5c 5c 5c 00 5d e8 5c 66 6f e4 5c b0
+Padding bytes: 0 0
+Converted payload: 00 00 01 8c 00 0a 13 88 00
+Time lapse: 0:00:00.423740; Wheel spin: 396; Speed: 27.7; Power: 10; Turbo: 0; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 131
+Raw frame:  36 83 00 21 29 21 00 22 a9 21 21 34 a9 21 ab
+Padding bytes: 0 0
+Converted payload: 08 00 01 88 00 00 13 88 00
+Time lapse: 0:00:00.423173; Wheel spin: 392; Speed: 27.5; Power: 0; Turbo: 0; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 132
+Raw frame:  36 84 00 2a 32 2a 00 2b 62 2a 2a 3d b2 2a 6c
+Padding bytes: 0 0
+Converted payload: 08 00 01 38 00 00 13 88 00
+Time lapse: 0:00:00.423025; Wheel spin: 312; Speed: 21.9; Power: 0; Turbo: 0; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 133
+Raw frame:  36 85 00 2f 37 2f 00 2f 2b 2f 2f 42 b7 2f 5a
+Padding bytes: 0 0
+Converted payload: 08 00 00 fb 00 00 13 88 00
+Time lapse: 0:00:00.422439; Wheel spin: 251; Speed: 17.6; Power: 0; Turbo: 0; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 134
+Raw frame:  36 86 00 28 33 28 00 28 f0 28 28 3b b0 28 f8
+Padding bytes: 0 0
+Converted payload: 0b 00 00 c8 00 00 13 88 00
+Time lapse: 0:00:00.420554; Wheel spin: 200; Speed: 14.0; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 135
+Raw frame:  36 87 00 2d 38 2d 00 2d b5 2d 2d 40 b5 2d c9
+Padding bytes: 0 0
+Converted payload: 0b 00 00 88 00 00 13 88 00
+Time lapse: 0:00:00.420817; Wheel spin: 136; Speed: 9.5; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 136
+Raw frame:  36 88 00 26 29 26 00 26 82 26 26 39 ae 26 82
+Padding bytes: 0 0
+Converted payload: 03 00 00 5c 00 00 13 88 00
+Time lapse: 0:00:00.419150; Wheel spin: 92; Speed: 6.4; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 137
+Raw frame:  36 89 00 2b 2e 2b 00 2b 53 2b 2b 3e b3 2b 4f
+Padding bytes: 0 0
+Converted payload: 03 00 00 28 00 00 13 88 00
+Time lapse: 0:00:00.418666; Wheel spin: 40; Speed: 2.8; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 138
+Raw frame:  36 8a 00 24 27 24 00 24 30 24 2e 37 ac 24 3a
+Padding bytes: 0 0
+Converted payload: 03 00 00 0c 00 0a 13 88 00
+Time lapse: 0:00:00.418727; Wheel spin: 12; Speed: 0.8; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 139
+Raw frame:  36 8b 00 29 2c 29 00 29 95 29 33 3c b1 29 93
+Padding bytes: 0 0
+Converted payload: 03 00 00 6c 00 0a 13 88 00
+Time lapse: 0:00:00.420532; Wheel spin: 108; Speed: 7.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 140
+Raw frame:  36 8c 00 52 5d 52 00 52 22 52 52 65 da 52 7a
+Padding bytes: 0 0
+Converted payload: 0b 00 00 cf 00 00 13 88 00
+Time lapse: 0:00:00.421026; Wheel spin: 207; Speed: 14.5; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 141
+Raw frame:  36 8d 00 57 62 57 00 57 f7 57 57 6a df 57 9b
+Padding bytes: 0 0
+Converted payload: 0b 00 00 a0 00 00 13 88 00
+Time lapse: 0:00:00.419969; Wheel spin: 160; Speed: 11.2; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 142
+Raw frame:  36 8e 00 50 53 50 00 50 b4 50 50 63 d8 50 e4
+Padding bytes: 0 0
+Converted payload: 03 00 00 64 00 00 13 88 00
+Time lapse: 0:00:00.419545; Wheel spin: 100; Speed: 7.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 143
+Raw frame:  36 8f 00 55 58 55 00 55 91 55 55 68 dd 55 c5
+Padding bytes: 0 0
+Converted payload: 03 00 00 3c 00 00 13 88 00
+Time lapse: 0:00:00.420209; Wheel spin: 60; Speed: 4.2; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 144
+Raw frame:  36 90 00 4e 59 4e 00 4e f2 4e 4e 61 d6 4e ba
+Padding bytes: 0 0
+Converted payload: 0b 00 00 a4 00 00 13 88 00
+Time lapse: 0:00:00.419579; Wheel spin: 164; Speed: 11.5; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 145
+Raw frame:  36 91 00 53 76 53 00 53 bb 53 5d 66 db 53 d9
+Padding bytes: 0 0
+Converted payload: 23 00 00 68 00 0a 13 88 00
+Time lapse: 0:00:00.417532; Wheel spin: 104; Speed: 7.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 146
+Raw frame:  36 92 00 4c 6f 4c 00 4c 4c 4c 56 5f d4 4c 16
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417530; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 147
+Raw frame:  36 93 00 51 74 51 00 51 51 51 5b 64 d9 51 37
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417845; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 148
+Raw frame:  36 94 00 5a 7d 5a 00 5a 5a 5a 64 6d e2 5a 34
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417781; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 149
+Raw frame:  36 95 00 5f 82 5f 00 5f 5f 5f 69 72 e7 5f dd
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417913; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 150
+Raw frame:  36 96 00 58 7b 58 00 58 58 58 62 6b e0 58 32
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417682; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 151
+Raw frame:  36 97 00 5d 80 5d 00 5d 5d 5d 67 70 e5 5d d3
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417770; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 152
+Raw frame:  36 98 00 56 59 56 00 56 56 56 56 69 de 56 16
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417874; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 153
+Raw frame:  36 99 00 5b 5e 5b 00 5b 5b 5b 5b 6e e3 5b 27
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417527; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 154
+Raw frame:  36 9a 00 54 57 54 00 54 54 54 54 67 dc 54 14
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417949; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 155
+Raw frame:  36 9b 00 59 5c 59 00 59 59 59 59 6c e1 59 25
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417743; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 156
+Raw frame:  36 9c 00 02 05 02 00 02 02 02 02 15 8a 02 32
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417735; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 157
+Raw frame:  36 9d 00 07 2a 07 00 07 07 07 11 1a 8f 07 05
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417862; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 158
+Raw frame:  36 9e 00 00 23 00 00 00 00 00 0a 13 88 00 1a
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417734; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 159
+Raw frame:  36 9f 00 05 28 05 00 05 05 05 0f 18 8d 05 1b
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417840; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 160
+Raw frame:  36 a0 00 3e 41 3e 00 3e 3e 3e 3e 51 c6 3e 7e
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417542; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 161
+Raw frame:  36 a1 00 03 06 03 00 03 03 03 03 16 8b 03 0f
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.419330; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 162
+Raw frame:  36 a2 00 3c 3f 3c 00 3c e4 3c 46 4f c4 3c be
+Padding bytes: 0 0
+Converted payload: 03 00 00 a8 00 0a 13 88 00
+Time lapse: 0:00:00.420345; Wheel spin: 168; Speed: 11.8; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 163
+Raw frame:  36 a3 00 01 04 01 00 01 d5 01 0b 14 89 01 d3
+Padding bytes: 0 0
+Converted payload: 03 00 00 d4 00 0a 13 88 00
+Time lapse: 0:00:00.419627; Wheel spin: 212; Speed: 14.8; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 164
+Raw frame:  36 a4 00 0a 0d 0a 00 0a 02 0a 14 1d 92 0a 0c
+Padding bytes: 0 0
+Converted payload: 03 00 00 f7 00 0a 13 88 00
+Time lapse: 0:00:00.421027; Wheel spin: 247; Speed: 17.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 165
+Raw frame:  36 a5 00 0f 12 0f 00 10 87 0f 19 22 97 0f ba
+Padding bytes: 0 0
+Converted payload: 03 00 01 78 00 0a 13 88 00
+Time lapse: 0:00:00.421191; Wheel spin: 376; Speed: 26.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 166
+Raw frame:  36 a6 00 08 0b 08 00 09 ac 08 12 1b 90 08 a7
+Padding bytes: 0 0
+Converted payload: 03 00 01 a4 00 0a 13 88 00
+Time lapse: 0:00:00.424035; Wheel spin: 420; Speed: 29.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 167
+Raw frame:  36 a7 00 0d 10 0d 00 0f 15 0d 17 20 95 0d 39
+Padding bytes: 0 0
+Converted payload: 03 00 02 08 00 0a 13 88 00
+Time lapse: 0:00:00.426777; Wheel spin: 520; Speed: 36.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 168
+Raw frame:  36 a8 00 06 09 06 00 08 82 06 12 19 8e 06 98
+Padding bytes: 0 0
+Converted payload: 03 00 02 7c 00 0c 13 88 00
+Time lapse: 0:00:00.424901; Wheel spin: 636; Speed: 44.5; Power: 12; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 169
+Raw frame:  36 a9 00 0b 0e 0b 00 0d ff 0b 18 1e 93 0b f6
+Padding bytes: 0 0
+Converted payload: 03 00 02 f4 00 0d 13 88 00
+Time lapse: 0:00:00.474319; Wheel spin: 756; Speed: 53.0; Power: 13; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 170
+Raw frame:  36 aa 00 04 07 04 00 08 fc 04 1e 17 8c 04 ea
+Padding bytes: 0 0
+Converted payload: 03 00 04 f8 00 1a 13 88 00
+Time lapse: 0:00:00.434927; Wheel spin: 1272; Speed: 89.1; Power: 26; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 171
+Raw frame:  36 ab 00 09 14 09 00 0d 4d 09 09 1c 91 09 4d
+Padding bytes: 0 0
+Converted payload: 0b 00 04 44 00 00 13 88 00
+Time lapse: 0:00:00.432906; Wheel spin: 1092; Speed: 76.5; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 172
+Raw frame:  36 ac 00 32 3d 32 00 35 ee 32 32 45 ba 32 b1
+Padding bytes: 0 0
+Converted payload: 0b 00 03 bc 00 00 13 88 00
+Time lapse: 0:00:00.430797; Wheel spin: 956; Speed: 67.0; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 173
+Raw frame:  36 ad 00 37 42 37 00 3a 93 37 37 4a bf 37 b2
+Padding bytes: 0 0
+Converted payload: 0b 00 03 5c 00 00 13 88 00
+Time lapse: 0:00:00.428301; Wheel spin: 860; Speed: 60.2; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 174
+Raw frame:  36 ae 00 30 3b 30 00 32 2c 30 30 43 b8 30 76
+Padding bytes: 0 0
+Converted payload: 0b 00 02 fb 00 00 13 88 00
+Time lapse: 0:00:00.429208; Wheel spin: 763; Speed: 53.4; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 175
+Raw frame:  36 af 00 35 40 35 00 37 c5 35 35 48 bd 35 eb
+Padding bytes: 0 0
+Converted payload: 0b 00 02 90 00 00 13 88 00
+Time lapse: 0:00:00.426904; Wheel spin: 656; Speed: 45.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 176
+Raw frame:  36 b0 00 2e 39 2e 00 30 72 2e 2e 41 b6 2e 24
+Padding bytes: 0 0
+Converted payload: 0b 00 02 44 00 00 13 88 00
+Time lapse: 0:00:00.425990; Wheel spin: 580; Speed: 40.6; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 177
+Raw frame:  36 b1 00 33 3e 33 00 34 2b 33 33 46 bb 33 68
+Padding bytes: 0 0
+Converted payload: 0b 00 01 f7 00 00 13 88 00
+Time lapse: 0:00:00.424506; Wheel spin: 503; Speed: 35.2; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 178
+Raw frame:  36 b2 00 2c 37 2c 00 2d c8 2c 2c 3f b4 2c f1
+Padding bytes: 0 0
+Converted payload: 0b 00 01 9c 00 00 13 88 00
+Time lapse: 0:00:00.421738; Wheel spin: 412; Speed: 28.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 179
+Raw frame:  36 b3 00 31 3c 31 00 32 85 31 31 44 b9 31 c2
+Padding bytes: 0 0
+Converted payload: 0b 00 01 54 00 00 13 88 00
+Time lapse: 0:00:00.422260; Wheel spin: 340; Speed: 23.8; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 180
+Raw frame:  36 b4 00 3a 45 3a 00 3b 56 3a 3a 4d c2 3a 1f
+Padding bytes: 0 0
+Converted payload: 0b 00 01 1c 00 00 13 88 00
+Time lapse: 0:00:00.420295; Wheel spin: 284; Speed: 19.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 181
+Raw frame:  36 b5 00 3f 4a 3f 00 3f 0f 3f 3f 52 c7 3f 53
+Padding bytes: 0 0
+Converted payload: 0b 00 00 cf 00 00 13 88 00
+Time lapse: 0:00:00.422608; Wheel spin: 207; Speed: 14.5; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 182
+Raw frame:  36 b6 00 38 43 38 00 38 d4 38 38 4b c0 38 9c
+Padding bytes: 0 0
+Converted payload: 0b 00 00 9c 00 00 13 88 00
+Time lapse: 0:00:00.421364; Wheel spin: 156; Speed: 10.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 183
+Raw frame:  36 b7 00 3d 40 3d 00 3d 9d 3d 3d 50 c5 3d c9
+Padding bytes: 0 0
+Converted payload: 03 00 00 60 00 00 13 88 00
+Time lapse: 0:00:00.419824; Wheel spin: 96; Speed: 6.7; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 184
+Raw frame:  36 b8 00 36 39 36 00 36 6e 36 36 49 be 36 2e
+Padding bytes: 0 0
+Converted payload: 03 00 00 38 00 00 13 88 00
+Time lapse: 0:00:00.418806; Wheel spin: 56; Speed: 3.9; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 185
+Raw frame:  36 b9 00 3b 3e 3b 00 3b 4f 3b 3b 4e c3 3b 73
+Padding bytes: 0 0
+Converted payload: 03 00 00 14 00 00 13 88 00
+Time lapse: 0:00:00.417791; Wheel spin: 20; Speed: 1.4; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 186
+Raw frame:  36 ba 00 34 37 34 00 34 34 34 34 47 bc 34 74
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417666; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 187
+Raw frame:  36 bb 00 39 3c 39 00 39 39 39 39 4c c1 39 05
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417854; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 188
+Raw frame:  36 bc 00 62 65 62 00 62 62 62 62 75 ea 62 12
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417639; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 189
+Raw frame:  36 bd 00 67 6a 67 00 67 67 67 67 7a ef 67 13
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418039; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 190
+Raw frame:  36 be 00 60 63 60 00 60 60 60 60 73 e8 60 10
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417667; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 191
+Raw frame:  36 bf 00 65 68 65 00 65 65 65 65 78 ed 65 11
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417636; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 192
+Raw frame:  36 c0 00 1e 21 1e 00 1e 1e 1e 1e 31 a6 1e 5e
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417925; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 193
+Raw frame:  36 c1 00 63 66 63 00 63 63 63 63 76 eb 63 6f
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417776; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 194
+Raw frame:  36 c2 00 1c 1f 1c 00 1c 1c 1c 1c 2f a4 1c 7c
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417836; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 195
+Raw frame:  36 c3 00 61 64 61 00 61 61 61 61 74 e9 61 6d
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417781; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 196
+Raw frame:  36 c4 00 6a 6d 6a 00 6a 6a 6a 6a 7d f2 6a 7a
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417984; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 197
+Raw frame:  36 c5 00 6f 72 6f 00 6f 6f 6f 6f 82 f7 6f 9b
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417743; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 198
+Raw frame:  36 c6 00 68 6b 68 00 68 68 68 68 7b f0 68 78
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.419498; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 199
+Raw frame:  36 c7 00 6d 70 6d 00 6d e9 6d 77 80 f5 6d 07
+Padding bytes: 0 0
+Converted payload: 03 00 00 7c 00 0a 13 88 00
+Time lapse: 0:00:00.421939; Wheel spin: 124; Speed: 8.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 200
+Raw frame:  36 c8 00 66 69 66 00 66 26 66 70 79 ee 66 30
+Padding bytes: 0 0
+Converted payload: 03 00 00 bf 00 0a 13 88 00
+Time lapse: 0:00:00.421927; Wheel spin: 191; Speed: 13.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 201
+Raw frame:  36 c9 00 6b 6e 6b 00 6b 33 6b 75 7e f3 6b 31
+Padding bytes: 0 0
+Converted payload: 03 00 00 c7 00 0a 13 88 00
+Time lapse: 0:00:00.420362; Wheel spin: 199; Speed: 13.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 202
+Raw frame:  36 ca 00 64 67 64 00 65 6c 64 6e 77 ec 64 67
+Padding bytes: 0 0
+Converted payload: 03 00 01 08 00 0a 13 88 00
+Time lapse: 0:00:00.422340; Wheel spin: 264; Speed: 18.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 203
+Raw frame:  36 cb 00 69 6c 69 00 6a c5 69 73 7c f1 69 c0
+Padding bytes: 0 0
+Converted payload: 03 00 01 5c 00 0a 13 88 00
+Time lapse: 0:00:00.421869; Wheel spin: 348; Speed: 24.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 204
+Raw frame:  36 cc 00 12 15 12 00 14 12 12 1c 25 9a 12 4a
+Padding bytes: 0 0
+Converted payload: 03 00 02 00 00 0a 13 88 00
+Time lapse: 0:00:00.425134; Wheel spin: 512; Speed: 35.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 205
+Raw frame:  36 cd 00 17 1a 17 00 19 5f 17 22 2a 9f 17 30
+Padding bytes: 0 0
+Converted payload: 03 00 02 48 00 0b 13 88 00
+Time lapse: 0:00:00.425729; Wheel spin: 584; Speed: 40.9; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 206
+Raw frame:  36 ce 00 10 13 10 00 12 ec 10 10 23 98 10 be
+Padding bytes: 0 0
+Converted payload: 03 00 02 dc 00 00 13 88 00
+Time lapse: 0:00:00.428644; Wheel spin: 732; Speed: 51.3; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 207
+Raw frame:  36 cf 00 15 20 15 00 17 cd 15 15 28 9d 15 a3
+Padding bytes: 0 0
+Converted payload: 0b 00 02 b8 00 00 13 88 00
+Time lapse: 0:00:00.427692; Wheel spin: 696; Speed: 48.7; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 208
+Raw frame:  36 d0 00 0e 19 0e 00 10 6e 0e 0e 21 96 0e 38
+Padding bytes: 0 0
+Converted payload: 0b 00 02 60 00 00 13 88 00
+Time lapse: 0:00:00.427590; Wheel spin: 608; Speed: 42.6; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 209
+Raw frame:  36 d1 00 13 1e 13 00 15 2b 13 13 26 9b 13 69
+Padding bytes: 0 0
+Converted payload: 0b 00 02 18 00 00 13 88 00
+Time lapse: 0:00:00.425610; Wheel spin: 536; Speed: 37.5; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 210
+Raw frame:  36 d2 00 0c 17 0c 00 0d c4 0c 0c 1f 94 0c bd
+Padding bytes: 0 0
+Converted payload: 0b 00 01 b8 00 00 13 88 00
+Time lapse: 0:00:00.423903; Wheel spin: 440; Speed: 30.8; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 211
+Raw frame:  36 d3 00 11 1c 11 00 12 8d 11 11 24 99 11 ca
+Padding bytes: 0 0
+Converted payload: 0b 00 01 7c 00 00 13 88 00
+Time lapse: 0:00:00.422691; Wheel spin: 380; Speed: 26.6; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 212
+Raw frame:  36 d4 00 1a 25 1a 00 1b 42 1a 1a 2d a2 1a 0b
+Padding bytes: 0 0
+Converted payload: 0b 00 01 28 00 00 13 88 00
+Time lapse: 0:00:00.421110; Wheel spin: 296; Speed: 20.7; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 213
+Raw frame:  36 d5 00 1f 2a 1f 00 1f 0b 1f 1f 32 a7 1f 57
+Padding bytes: 0 0
+Converted payload: 0b 00 00 eb 00 00 13 88 00
+Time lapse: 0:00:00.421230; Wheel spin: 235; Speed: 16.5; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 214
+Raw frame:  36 d6 00 18 23 18 00 18 d0 18 18 2b a0 18 98
+Padding bytes: 0 0
+Converted payload: 0b 00 00 b8 00 00 13 88 00
+Time lapse: 0:00:00.421597; Wheel spin: 184; Speed: 12.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 215
+Raw frame:  36 d7 00 1d 28 1d 00 1d 99 1d 1d 30 a5 1d c5
+Padding bytes: 0 0
+Converted payload: 0b 00 00 7c 00 00 13 88 00
+Time lapse: 0:00:00.420238; Wheel spin: 124; Speed: 8.7; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 216
+Raw frame:  36 d8 00 16 19 16 00 16 66 16 16 29 9e 16 26
+Padding bytes: 0 0
+Converted payload: 03 00 00 50 00 00 13 88 00
+Time lapse: 0:00:00.418758; Wheel spin: 80; Speed: 5.6; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 217
+Raw frame:  36 d9 00 1b 1e 1b 00 1b 47 1b 1b 2e a3 1b 3b
+Padding bytes: 0 0
+Converted payload: 03 00 00 2c 00 00 13 88 00
+Time lapse: 0:00:00.417914; Wheel spin: 44; Speed: 3.1; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 218
+Raw frame:  36 da 00 14 17 14 00 14 14 14 14 27 9c 14 54
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417790; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 219
+Raw frame:  36 db 00 19 1c 19 00 19 19 19 19 2c a1 19 65
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417796; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 220
+Raw frame:  36 dc 00 42 45 42 00 42 42 42 42 55 ca 42 72
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418330; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 221
+Raw frame:  36 dd 00 47 4a 47 00 47 57 47 51 5a cf 47 75
+Padding bytes: 0 0
+Converted payload: 03 00 00 10 00 0a 13 88 00
+Time lapse: 0:00:00.420658; Wheel spin: 16; Speed: 1.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 222
+Raw frame:  36 de 00 40 43 40 00 40 b4 40 4a 53 c8 40 8e
+Padding bytes: 0 0
+Converted payload: 03 00 00 74 00 0a 13 88 00
+Time lapse: 0:00:00.421138; Wheel spin: 116; Speed: 8.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 223
+Raw frame:  36 df 00 45 48 45 00 46 59 45 4f 58 cd 45 64
+Padding bytes: 0 0
+Converted payload: 03 00 01 14 00 0a 13 88 00
+Time lapse: 0:00:00.421430; Wheel spin: 276; Speed: 19.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 224
+Raw frame:  36 e0 00 7e 81 7e 00 7f 0a 7e 88 91 06 7e 3d
+Padding bytes: 0 0
+Converted payload: 03 00 01 8b 00 0a 13 87 00
+Time lapse: 0:00:00.422615; Wheel spin: 395; Speed: 27.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 225
+Raw frame:  36 e1 00 43 46 43 00 45 47 43 4d 56 cb 43 43
+Padding bytes: 0 0
+Converted payload: 03 00 02 04 00 0a 13 88 00
+Time lapse: 0:00:00.425178; Wheel spin: 516; Speed: 36.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 226
+Raw frame:  36 e2 00 7c 7f 7c 00 7e dc 7c 87 8f 04 7c 05
+Padding bytes: 0 0
+Converted payload: 03 00 02 60 00 0b 13 87 00
+Time lapse: 0:00:00.425149; Wheel spin: 608; Speed: 42.6; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 227
+Raw frame:  36 e3 00 41 44 41 00 43 f1 41 4b 54 c9 41 f5
+Padding bytes: 0 0
+Converted payload: 03 00 02 b0 00 0a 13 88 00
+Time lapse: 0:00:00.426779; Wheel spin: 688; Speed: 48.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 228
+Raw frame:  36 e4 00 4a 4d 4a 00 4c 3e 4a 55 5d d2 4a 37
+Padding bytes: 0 0
+Converted payload: 03 00 02 f3 00 0b 13 88 00
+Time lapse: 0:00:00.427731; Wheel spin: 755; Speed: 52.9; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 229
+Raw frame:  36 e5 00 4f 52 4f 00 52 83 4f 5a 62 d7 4f bf
+Padding bytes: 0 0
+Converted payload: 03 00 03 34 00 0b 13 88 00
+Time lapse: 0:00:00.427852; Wheel spin: 820; Speed: 57.4; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 230
+Raw frame:  36 e6 00 48 4b 48 00 4b c4 48 53 5b d0 48 cc
+Padding bytes: 0 0
+Converted payload: 03 00 03 7c 00 0b 13 88 00
+Time lapse: 0:00:00.431021; Wheel spin: 892; Speed: 62.5; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 231
+Raw frame:  36 e7 00 4d 50 4d 00 50 ed 4d 58 60 d5 4d d1
+Padding bytes: 0 0
+Converted payload: 03 00 03 a0 00 0b 13 88 00
+Time lapse: 0:00:00.428081; Wheel spin: 928; Speed: 65.0; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 232
+Raw frame:  36 e8 00 46 49 46 00 49 02 46 50 59 ce 46 1b
+Padding bytes: 0 0
+Converted payload: 03 00 03 bb 00 0a 13 88 00
+Time lapse: 0:00:00.429430; Wheel spin: 955; Speed: 66.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 233
+Raw frame:  36 e9 00 4b 4e 4b 00 4e 0f 4b 55 5e d3 4b 08
+Padding bytes: 0 0
+Converted payload: 03 00 03 c3 00 0a 13 88 00
+Time lapse: 0:00:00.428605; Wheel spin: 963; Speed: 67.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 234
+Raw frame:  36 ea 00 44 47 44 00 47 10 44 4e 57 cc 44 19
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.428560; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 235
+Raw frame:  36 eb 00 49 4c 49 00 4c 11 49 53 5c d1 49 12
+Padding bytes: 0 0
+Converted payload: 03 00 03 c7 00 0a 13 88 00
+Time lapse: 0:00:00.428013; Wheel spin: 967; Speed: 67.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 236
+Raw frame:  36 ec 00 72 75 72 00 75 3a 72 7c 85 fa 72 e3
+Padding bytes: 0 0
+Converted payload: 03 00 03 c7 00 0a 13 88 00
+Time lapse: 0:00:00.428839; Wheel spin: 967; Speed: 67.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 237
+Raw frame:  36 ed 00 77 7a 77 00 7a 3f 77 81 8a ff 77 10
+Padding bytes: 0 0
+Converted payload: 03 00 03 c7 00 0a 13 88 00
+Time lapse: 0:00:00.428629; Wheel spin: 967; Speed: 67.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 238
+Raw frame:  36 ee 00 70 73 70 00 73 3c 70 7a 83 f8 70 e5
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.429943; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 239
+Raw frame:  36 ef 00 75 78 75 00 78 41 75 7f 88 fd 75 92
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.428165; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 240
+Raw frame:  36 f0 00 6e 71 6e 00 71 32 6e 78 81 f6 6e fb
+Padding bytes: 0 0
+Converted payload: 03 00 03 c3 00 0a 13 88 00
+Time lapse: 0:00:00.429552; Wheel spin: 963; Speed: 67.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 241
+Raw frame:  36 f1 00 73 76 73 00 76 3b 73 7d 86 fb 73 fc
+Padding bytes: 0 0
+Converted payload: 03 00 03 c7 00 0a 13 88 00
+Time lapse: 0:00:00.430313; Wheel spin: 967; Speed: 67.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 242
+Raw frame:  36 f2 00 6c 6f 6c 00 6f 38 6c 76 7f f4 6c 01
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.429152; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 243
+Raw frame:  36 f3 00 71 74 71 00 74 3d 71 7b 84 f9 71 fe
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.428899; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 244
+Raw frame:  36 f4 00 7a 7d 7a 00 7d 4a 7a 84 8d 02 7a 83
+Padding bytes: 0 0
+Converted payload: 03 00 03 cf 00 0a 13 87 00
+Time lapse: 0:00:00.430496; Wheel spin: 975; Speed: 68.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 245
+Raw frame:  36 f5 00 7f 82 7f 00 82 47 7f 7f 92 07 7f 6e
+Padding bytes: 0 0
+Converted payload: 03 00 03 c7 00 00 13 87 00
+Time lapse: 0:00:00.430408; Wheel spin: 967; Speed: 67.7; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 246
+Raw frame:  36 f6 00 78 83 78 00 7b e4 78 78 8b 00 78 2f
+Padding bytes: 0 0
+Converted payload: 0b 00 03 6c 00 00 13 87 00
+Time lapse: 0:00:00.430118; Wheel spin: 876; Speed: 61.4; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 247
+Raw frame:  36 f7 00 7d 88 7d 00 80 85 7d 7d 90 05 7d a4
+Padding bytes: 0 0
+Converted payload: 0b 00 03 08 00 00 13 87 00
+Time lapse: 0:00:00.428150; Wheel spin: 776; Speed: 54.4; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 248
+Raw frame:  36 f8 00 76 81 76 00 78 2a 76 76 89 fe 76 1c
+Padding bytes: 0 0
+Converted payload: 0b 00 02 b3 00 00 13 88 00
+Time lapse: 0:00:00.426339; Wheel spin: 691; Speed: 48.4; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 249
+Raw frame:  36 f9 00 7b 86 7b 00 7d bf 7b 7b 8e 03 7b 7d
+Padding bytes: 0 0
+Converted payload: 0b 00 02 44 00 00 13 87 00
+Time lapse: 0:00:00.425857; Wheel spin: 580; Speed: 40.6; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 250
+Raw frame:  36 fa 00 74 7f 74 00 76 74 74 74 87 fc 74 be
+Padding bytes: 0 0
+Converted payload: 0b 00 02 00 00 00 13 88 00
+Time lapse: 0:00:00.425436; Wheel spin: 512; Speed: 35.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 251
+Raw frame:  36 fb 00 79 84 79 00 7a 31 79 79 8c 01 79 f6
+Padding bytes: 0 0
+Converted payload: 0b 00 01 b7 00 00 13 87 00
+Time lapse: 0:00:00.424596; Wheel spin: 439; Speed: 30.7; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 252
+Raw frame:  36 fc 00 22 2d 22 00 23 82 22 22 35 aa 22 fb
+Padding bytes: 0 0
+Converted payload: 0b 00 01 60 00 00 13 88 00
+Time lapse: 0:00:00.420545; Wheel spin: 352; Speed: 24.7; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 253
+Raw frame:  36 fd 00 27 32 27 00 28 4b 27 27 3a af 27 28
+Padding bytes: 0 0
+Converted payload: 0b 00 01 24 00 00 13 88 00
+Time lapse: 0:00:00.420702; Wheel spin: 292; Speed: 20.5; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 254
+Raw frame:  36 fe 00 20 2b 20 00 20 0c 20 20 33 a8 20 74
+Padding bytes: 0 0
+Converted payload: 0b 00 00 eb 00 00 13 88 00
+Time lapse: 0:00:00.422002; Wheel spin: 235; Speed: 16.5; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 255
+Raw frame:  36 ff 00 25 30 25 00 25 d1 25 25 38 ad 25 bd
+Padding bytes: 0 0
+Converted payload: 0b 00 00 ac 00 00 13 88 00
+Time lapse: 0:00:00.421047; Wheel spin: 172; Speed: 12.0; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 0
+Raw frame:  36 00 00 5e 69 5e 00 5e de 5e 5e 71 e6 5e 16
+Padding bytes: 0 0
+Converted payload: 0b 00 00 80 00 00 13 88 00
+Time lapse: 0:00:00.420139; Wheel spin: 128; Speed: 9.0; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 1
+Raw frame:  36 01 00 23 26 23 00 23 d7 23 2d 36 ab 23 55
+Padding bytes: 0 0
+Converted payload: 03 00 00 b4 00 0a 13 88 00
+Time lapse: 0:00:00.421941; Wheel spin: 180; Speed: 12.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 2
+Raw frame:  36 02 00 5c 5f 5c 00 5d 5c 5c 66 6f e4 5c 87
+Padding bytes: 0 0
+Converted payload: 03 00 01 00 00 0a 13 88 00
+Time lapse: 0:00:00.422425; Wheel spin: 256; Speed: 17.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 3
+Raw frame:  36 03 00 21 24 21 00 22 31 21 2b 34 a9 21 b4
+Padding bytes: 0 0
+Converted payload: 03 00 01 10 00 0a 13 88 00
+Time lapse: 0:00:00.421048; Wheel spin: 272; Speed: 19.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 4
+Raw frame:  36 04 00 2a 2d 2a 00 2b 72 2a 34 3d b2 2a fd
+Padding bytes: 0 0
+Converted payload: 03 00 01 48 00 0a 13 88 00
+Time lapse: 0:00:00.422052; Wheel spin: 328; Speed: 23.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 5
+Raw frame:  36 05 00 2f 32 2f 00 30 b3 2f 39 42 b7 2f 4e
+Padding bytes: 0 0
+Converted payload: 03 00 01 84 00 0a 13 88 00
+Time lapse: 0:00:00.422206; Wheel spin: 388; Speed: 27.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 6
+Raw frame:  36 06 00 28 2b 28 00 29 e0 28 32 3b b0 28 6b
+Padding bytes: 0 0
+Converted payload: 03 00 01 b8 00 0a 13 88 00
+Time lapse: 0:00:00.423456; Wheel spin: 440; Speed: 30.8; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 7
+Raw frame:  36 07 00 2d 30 2d 00 2f 31 2d 37 40 b5 2d dd
+Padding bytes: 0 0
+Converted payload: 03 00 02 04 00 0a 13 88 00
+Time lapse: 0:00:00.423593; Wheel spin: 516; Speed: 36.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 8
+Raw frame:  36 08 00 26 29 26 00 28 72 26 30 39 ae 26 ea
+Padding bytes: 0 0
+Converted payload: 03 00 02 4c 00 0a 13 88 00
+Time lapse: 0:00:00.425251; Wheel spin: 588; Speed: 41.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 9
+Raw frame:  36 09 00 2b 2e 2b 00 2d bf 2b 36 3e b3 2b 38
+Padding bytes: 0 0
+Converted payload: 03 00 02 94 00 0b 13 88 00
+Time lapse: 0:00:00.426721; Wheel spin: 660; Speed: 46.2; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 10
+Raw frame:  36 0a 00 24 27 24 00 26 14 24 2e 37 ac 24 9c
+Padding bytes: 0 0
+Converted payload: 03 00 02 ef 00 0a 13 88 00
+Time lapse: 0:00:00.428647; Wheel spin: 751; Speed: 52.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 11
+Raw frame:  36 0b 00 29 2c 29 00 2c 41 29 33 3c b1 29 c2
+Padding bytes: 0 0
+Converted payload: 03 00 03 18 00 0a 13 88 00
+Time lapse: 0:00:00.428150; Wheel spin: 792; Speed: 55.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 12
+Raw frame:  36 0c 00 52 55 52 00 55 92 52 5c 65 da 52 4b
+Padding bytes: 0 0
+Converted payload: 03 00 03 40 00 0a 13 88 00
+Time lapse: 0:00:00.429739; Wheel spin: 832; Speed: 58.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 13
+Raw frame:  36 0d 00 57 5a 57 00 5a d7 57 62 6a df 57 3b
+Padding bytes: 0 0
+Converted payload: 03 00 03 80 00 0b 13 88 00
+Time lapse: 0:00:00.427630; Wheel spin: 896; Speed: 62.8; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 14
+Raw frame:  36 0e 00 50 53 50 00 53 f0 50 5b 63 d8 50 28
+Padding bytes: 0 0
+Converted payload: 03 00 03 a0 00 0b 13 88 00
+Time lapse: 0:00:00.429017; Wheel spin: 928; Speed: 65.0; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 15
+Raw frame:  36 0f 00 55 58 55 00 58 0d 55 5f 68 dd 55 de
+Padding bytes: 0 0
+Converted payload: 03 00 03 b7 00 0a 13 88 00
+Time lapse: 0:00:00.427818; Wheel spin: 951; Speed: 66.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 16
+Raw frame:  36 10 00 4e 51 4e 00 51 0e 4e 58 61 d6 4e c7
+Padding bytes: 0 0
+Converted payload: 03 00 03 bf 00 0a 13 88 00
+Time lapse: 0:00:00.429609; Wheel spin: 959; Speed: 67.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 17
+Raw frame:  36 11 00 53 56 53 00 56 1f 53 5d 66 db 53 d8
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.427682; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 18
+Raw frame:  36 12 00 4c 4f 4c 00 4f 10 4c 56 5f d4 4c e9
+Padding bytes: 0 0
+Converted payload: 03 00 03 c3 00 0a 13 88 00
+Time lapse: 0:00:00.431675; Wheel spin: 963; Speed: 67.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 19
+Raw frame:  36 13 00 51 54 51 00 54 25 51 5b 64 d9 51 e6
+Padding bytes: 0 0
+Converted payload: 03 00 03 d3 00 0a 13 88 00
+Time lapse: 0:00:00.429077; Wheel spin: 979; Speed: 68.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 20
+Raw frame:  36 14 00 5a 5d 5a 00 5d 26 5a 64 6d e2 5a ef
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.430693; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 21
+Raw frame:  36 15 00 5f 62 5f 00 62 2b 5f 69 72 e7 5f f4
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.429476; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 22
+Raw frame:  36 16 00 58 5b 58 00 5b 24 58 62 6b e0 58 ed
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.429230; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 23
+Raw frame:  36 17 00 5d 60 5d 00 60 29 5d 67 70 e5 5d fa
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.428986; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 24
+Raw frame:  36 18 00 56 59 56 00 59 22 56 60 69 de 56 db
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.429717; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 25
+Raw frame:  36 19 00 5b 5e 5b 00 5e 23 5b 65 6e e3 5b e4
+Padding bytes: 0 0
+Converted payload: 03 00 03 c7 00 0a 13 88 00
+Time lapse: 0:00:00.430143; Wheel spin: 967; Speed: 67.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 26
+Raw frame:  36 1a 00 54 57 54 00 57 1c 54 5e 67 dc 54 d5
+Padding bytes: 0 0
+Converted payload: 03 00 03 c7 00 0a 13 88 00
+Time lapse: 0:00:00.429299; Wheel spin: 967; Speed: 67.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 27
+Raw frame:  36 1b 00 59 5c 59 00 5c 2d 59 63 6c e1 59 ee
+Padding bytes: 0 0
+Converted payload: 03 00 03 d3 00 0a 13 88 00
+Time lapse: 0:00:00.429271; Wheel spin: 979; Speed: 68.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 28
+Raw frame:  36 1c 00 02 05 02 00 05 ce 02 0c 15 8a 02 77
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.428951; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 29
+Raw frame:  36 1d 00 07 0a 07 00 0a d3 07 11 1a 8f 07 7c
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.427948; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 30
+Raw frame:  36 1e 00 00 0b 00 00 03 84 00 00 13 88 00 3f
+Padding bytes: 0 0
+Converted payload: 0b 00 03 84 00 00 13 88 00
+Time lapse: 0:00:00.429719; Wheel spin: 900; Speed: 63.0; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 31
+Raw frame:  36 1f 00 05 10 05 00 08 35 05 05 18 8d 05 94
+Padding bytes: 0 0
+Converted payload: 0b 00 03 30 00 00 13 88 00
+Time lapse: 0:00:00.428613; Wheel spin: 816; Speed: 57.2; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 32
+Raw frame:  36 20 00 3e 49 3e 00 40 12 3e 3e 51 c6 3e a4
+Padding bytes: 0 0
+Converted payload: 0b 00 02 d3 00 00 13 88 00
+Time lapse: 0:00:00.426749; Wheel spin: 723; Speed: 50.6; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 33
+Raw frame:  36 21 00 03 0e 03 00 05 6b 03 03 16 8b 03 e9
+Padding bytes: 0 0
+Converted payload: 0b 00 02 68 00 00 13 88 00
+Time lapse: 0:00:00.425902; Wheel spin: 616; Speed: 43.1; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 34
+Raw frame:  36 22 00 3c 47 3c 00 3e 58 3c 3c 4f c4 3c 82
+Padding bytes: 0 0
+Converted payload: 0b 00 02 1c 00 00 13 88 00
+Time lapse: 0:00:00.424198; Wheel spin: 540; Speed: 37.8; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 35
+Raw frame:  36 23 00 01 0c 01 00 02 d5 01 01 14 89 01 52
+Padding bytes: 0 0
+Converted payload: 0b 00 01 d4 00 00 13 88 00
+Time lapse: 0:00:00.425368; Wheel spin: 468; Speed: 32.8; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 36
+Raw frame:  36 24 00 0a 15 0a 00 0b 76 0a 0a 1d 92 0a ff
+Padding bytes: 0 0
+Converted payload: 0b 00 01 6c 00 00 13 88 00
+Time lapse: 0:00:00.423511; Wheel spin: 364; Speed: 25.5; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 37
+Raw frame:  36 25 00 0f 1a 0f 00 10 37 0f 0f 22 97 0f 94
+Padding bytes: 0 0
+Converted payload: 0b 00 01 28 00 00 13 88 00
+Time lapse: 0:00:00.423100; Wheel spin: 296; Speed: 20.7; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 38
+Raw frame:  36 26 00 08 13 08 00 08 e8 08 08 1b 90 08 60
+Padding bytes: 0 0
+Converted payload: 0b 00 00 e0 00 00 13 88 00
+Time lapse: 0:00:00.422691; Wheel spin: 224; Speed: 15.7; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 39
+Raw frame:  36 27 00 0d 18 0d 00 0d 9d 0d 0d 20 95 0d 21
+Padding bytes: 0 0
+Converted payload: 0b 00 00 90 00 00 13 88 00
+Time lapse: 0:00:00.420334; Wheel spin: 144; Speed: 10.1; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 40
+Raw frame:  36 28 00 06 29 06 00 06 4e 06 10 19 8e 06 f8
+Padding bytes: 0 0
+Converted payload: 23 00 00 48 00 0a 13 88 00
+Time lapse: 0:00:00.417890; Wheel spin: 72; Speed: 5.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 41
+Raw frame:  36 29 00 0b 2e 0b 00 0b 0b 0b 15 1e 93 0b a9
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417739; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 42
+Raw frame:  36 2a 00 04 27 04 00 04 04 04 0e 17 8c 04 ae
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417875; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 43
+Raw frame:  36 2b 00 09 2c 09 00 09 09 09 13 1c 91 09 af
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.418147; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 44
+Raw frame:  36 2c 00 32 35 32 00 32 32 32 32 45 ba 32 e2
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417720; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 45
+Raw frame:  36 2d 00 37 5a 37 00 37 37 37 41 4a bf 37 f5
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417921; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 46
+Raw frame:  36 2e 00 30 33 30 00 30 30 30 30 43 b8 30 e0
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417774; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 47
+Raw frame:  36 2f 00 35 38 35 00 35 35 35 35 48 bd 35 e1
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418181; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 48
+Raw frame:  36 30 00 2e 31 2e 00 2e 2e 2e 2e 41 b6 2e ee
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417739; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 49
+Raw frame:  36 31 00 33 36 33 00 33 33 33 33 46 bb 33 ff
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417948; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 50
+Raw frame:  36 32 00 2c 2f 2c 00 2c 2c 2c 2c 3f b4 2c 8c
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417739; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 51
+Raw frame:  36 33 00 31 34 31 00 31 31 31 31 44 b9 31 fd
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418028; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 52
+Raw frame:  36 34 00 3a 3d 3a 00 3a 3a 3a 3a 4d c2 3a 8a
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417818; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 53
+Raw frame:  36 35 00 3f 42 3f 00 3f 3f 3f 3f 52 c7 3f eb
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417816; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 54
+Raw frame:  36 36 00 38 5b 38 00 38 38 38 42 4b c0 38 92
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417781; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 55
+Raw frame:  36 37 00 3d 60 3d 00 3d 3d 3d 47 50 c5 3d b3
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.418048; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 56
+Raw frame:  36 38 00 36 59 36 00 36 36 36 40 49 be 36 e0
+Padding bytes: 0 0
+Converted payload: 23 00 00 00 00 0a 13 88 00
+Time lapse: 0:00:00.417741; Wheel spin: 0; Speed: 0.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 1; Unknown field: 5000.0
+Got frame nr: 57
+Raw frame:  36 39 00 3b 3e 3b 00 3b 3b 3b 3b 4e c3 3b 87
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418001; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 58
+Raw frame:  36 3a 00 34 37 34 00 34 34 34 34 47 bc 34 f4
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417831; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 59
+Raw frame:  36 3b 00 39 3c 39 00 39 39 39 39 4c c1 39 85
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418006; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 60
+Raw frame:  36 3c 00 62 65 62 00 62 62 62 62 75 ea 62 92
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418737; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 61
+Raw frame:  36 3d 00 67 6a 67 00 67 e3 67 71 7a ef 67 01
+Padding bytes: 0 0
+Converted payload: 03 00 00 7c 00 0a 13 88 00
+Time lapse: 0:00:00.421676; Wheel spin: 124; Speed: 8.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 62
+Raw frame:  36 3e 00 60 63 60 00 60 18 60 6a 73 e8 60 e2
+Padding bytes: 0 0
+Converted payload: 03 00 00 b7 00 0a 13 88 00
+Time lapse: 0:00:00.421669; Wheel spin: 183; Speed: 12.8; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 63
+Raw frame:  36 3f 00 65 68 65 00 65 3d 65 6f 78 ed 65 c3
+Padding bytes: 0 0
+Converted payload: 03 00 00 d7 00 0a 13 88 00
+Time lapse: 0:00:00.421817; Wheel spin: 215; Speed: 15.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 64
+Raw frame:  36 40 00 1e 21 1e 00 1f 36 1e 28 31 a6 1e c1
+Padding bytes: 0 0
+Converted payload: 03 00 01 18 00 0a 13 88 00
+Time lapse: 0:00:00.421861; Wheel spin: 280; Speed: 19.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 65
+Raw frame:  36 41 00 63 66 63 00 64 b3 63 6d 76 eb 63 36
+Padding bytes: 0 0
+Converted payload: 03 00 01 50 00 0a 13 88 00
+Time lapse: 0:00:00.424370; Wheel spin: 336; Speed: 23.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 66
+Raw frame:  36 42 00 1c 1f 1c 00 1d c4 1c 26 2f a4 1c 1f
+Padding bytes: 0 0
+Converted payload: 03 00 01 a8 00 0a 13 88 00
+Time lapse: 0:00:00.425790; Wheel spin: 424; Speed: 29.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 67
+Raw frame:  36 43 00 61 64 61 00 63 85 61 6c 74 e9 61 06
+Padding bytes: 0 0
+Converted payload: 03 00 02 24 00 0b 13 88 00
+Time lapse: 0:00:00.425855; Wheel spin: 548; Speed: 38.4; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 68
+Raw frame:  36 44 00 6a 6d 6a 00 6c ee 6a 74 7d f2 6a 66
+Padding bytes: 0 0
+Converted payload: 03 00 02 84 00 0a 13 88 00
+Time lapse: 0:00:00.425156; Wheel spin: 644; Speed: 45.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 69
+Raw frame:  36 45 00 6f 72 6f 00 71 23 6f 79 82 f7 6f 5f
+Padding bytes: 0 0
+Converted payload: 03 00 02 b3 00 0a 13 88 00
+Time lapse: 0:00:00.427904; Wheel spin: 691; Speed: 48.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 70
+Raw frame:  36 46 00 68 6b 68 00 6a 50 68 72 7b f0 68 d8
+Padding bytes: 0 0
+Converted payload: 03 00 02 e7 00 0a 13 88 00
+Time lapse: 0:00:00.428037; Wheel spin: 743; Speed: 52.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 71
+Raw frame:  36 47 00 6d 70 6d 00 70 7d 6d 77 80 f5 6d 0e
+Padding bytes: 0 0
+Converted payload: 03 00 03 10 00 0a 13 88 00
+Time lapse: 0:00:00.427716; Wheel spin: 784; Speed: 54.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 72
+Raw frame:  36 48 00 66 69 66 00 69 96 66 70 79 ee 66 0f
+Padding bytes: 0 0
+Converted payload: 03 00 03 30 00 0a 13 88 00
+Time lapse: 0:00:00.427809; Wheel spin: 816; Speed: 57.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 73
+Raw frame:  36 49 00 6b 6e 6b 00 6e df 6b 76 7e f3 6b 5b
+Padding bytes: 0 0
+Converted payload: 03 00 03 74 00 0b 13 88 00
+Time lapse: 0:00:00.429693; Wheel spin: 884; Speed: 61.9; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 74
+Raw frame:  36 4a 00 64 67 64 00 67 f8 64 6e 77 ec 64 71
+Padding bytes: 0 0
+Converted payload: 03 00 03 94 00 0a 13 88 00
+Time lapse: 0:00:00.431711; Wheel spin: 916; Speed: 64.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 75
+Raw frame:  36 4b 00 69 6c 69 00 6c 21 69 73 7c f1 69 a2
+Padding bytes: 0 0
+Converted payload: 03 00 03 b7 00 0a 13 88 00
+Time lapse: 0:00:00.429779; Wheel spin: 951; Speed: 66.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 76
+Raw frame:  36 4c 00 12 15 12 00 15 ca 12 1c 25 9a 12 13
+Padding bytes: 0 0
+Converted payload: 03 00 03 b8 00 0a 13 88 00
+Time lapse: 0:00:00.428139; Wheel spin: 952; Speed: 66.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 77
+Raw frame:  36 4d 00 17 1a 17 00 1a d7 17 21 2a 9f 17 38
+Padding bytes: 0 0
+Converted payload: 03 00 03 c0 00 0a 13 88 00
+Time lapse: 0:00:00.428502; Wheel spin: 960; Speed: 67.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 78
+Raw frame:  36 4e 00 10 13 10 00 13 d4 10 1a 23 98 10 0d
+Padding bytes: 0 0
+Converted payload: 03 00 03 c4 00 0a 13 88 00
+Time lapse: 0:00:00.430412; Wheel spin: 964; Speed: 67.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 79
+Raw frame:  36 4f 00 15 18 15 00 18 e1 15 1f 28 9d 15 32
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.429660; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 80
+Raw frame:  36 50 00 0e 11 0e 00 11 de 0e 18 21 96 0e 17
+Padding bytes: 0 0
+Converted payload: 03 00 03 d0 00 0a 13 88 00
+Time lapse: 0:00:00.428957; Wheel spin: 976; Speed: 68.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 81
+Raw frame:  36 51 00 13 16 13 00 16 d7 13 1d 26 9b 13 10
+Padding bytes: 0 0
+Converted payload: 03 00 03 c4 00 0a 13 88 00
+Time lapse: 0:00:00.429911; Wheel spin: 964; Speed: 67.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 82
+Raw frame:  36 52 00 0c 0f 0c 00 0f dc 0c 16 1f 94 0c 25
+Padding bytes: 0 0
+Converted payload: 03 00 03 d0 00 0a 13 88 00
+Time lapse: 0:00:00.428221; Wheel spin: 976; Speed: 68.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 83
+Raw frame:  36 53 00 11 14 11 00 14 dd 11 1b 24 99 11 1e
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.429672; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 84
+Raw frame:  36 54 00 1a 1d 1a 00 1d e2 1a 24 2d a2 1a 2b
+Padding bytes: 0 0
+Converted payload: 03 00 03 c8 00 0a 13 88 00
+Time lapse: 0:00:00.428717; Wheel spin: 968; Speed: 67.8; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 85
+Raw frame:  36 55 00 1f 22 1f 00 22 eb 1f 29 32 a7 1f 34
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.429906; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 86
+Raw frame:  36 56 00 18 1b 18 00 1b e8 18 22 2b a0 18 21
+Padding bytes: 0 0
+Converted payload: 03 00 03 d0 00 0a 13 88 00
+Time lapse: 0:00:00.429585; Wheel spin: 976; Speed: 68.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 87
+Raw frame:  36 57 00 1d 20 1d 00 20 dd 1d 27 30 a5 1d 0e
+Padding bytes: 0 0
+Converted payload: 03 00 03 c0 00 0a 13 88 00
+Time lapse: 0:00:00.428438; Wheel spin: 960; Speed: 67.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 88
+Raw frame:  36 58 00 16 19 16 00 19 a2 16 20 29 9e 16 5b
+Padding bytes: 0 0
+Converted payload: 03 00 03 8c 00 0a 13 88 00
+Time lapse: 0:00:00.428986; Wheel spin: 908; Speed: 63.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 89
+Raw frame:  36 59 00 1b 1e 1b 00 1e 8b 1b 25 2e a3 1b 4c
+Padding bytes: 0 0
+Converted payload: 03 00 03 70 00 0a 13 88 00
+Time lapse: 0:00:00.427117; Wheel spin: 880; Speed: 61.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 90
+Raw frame:  36 5a 00 14 17 14 00 17 64 14 1e 27 9c 14 ad
+Padding bytes: 0 0
+Converted payload: 03 00 03 50 00 0a 13 88 00
+Time lapse: 0:00:00.429394; Wheel spin: 848; Speed: 59.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 91
+Raw frame:  36 5b 00 19 1c 19 00 1c 4d 19 23 2c a1 19 8e
+Padding bytes: 0 0
+Converted payload: 03 00 03 34 00 0a 13 88 00
+Time lapse: 0:00:00.427600; Wheel spin: 820; Speed: 57.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 92
+Raw frame:  36 5c 00 42 45 42 00 45 86 42 4c 55 ca 42 3f
+Padding bytes: 0 0
+Converted payload: 03 00 03 44 00 0a 13 88 00
+Time lapse: 0:00:00.427030; Wheel spin: 836; Speed: 58.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 93
+Raw frame:  36 5d 00 47 4a 47 00 4a d3 47 53 5a cf 47 7e
+Padding bytes: 0 0
+Converted payload: 03 00 03 8c 00 0c 13 88 00
+Time lapse: 0:00:00.430124; Wheel spin: 908; Speed: 63.6; Power: 12; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 94
+Raw frame:  36 5e 00 40 43 40 00 43 ec 40 4a 53 c8 40 55
+Padding bytes: 0 0
+Converted payload: 03 00 03 ac 00 0a 13 88 00
+Time lapse: 0:00:00.429014; Wheel spin: 940; Speed: 65.8; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 95
+Raw frame:  36 5f 00 45 48 45 00 48 01 45 4f 58 cd 45 b2
+Padding bytes: 0 0
+Converted payload: 03 00 03 bb 00 0a 13 88 00
+Time lapse: 0:00:00.430037; Wheel spin: 955; Speed: 66.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 96
+Raw frame:  36 60 00 7e 81 7e 00 81 42 7e 88 91 06 7e 0b
+Padding bytes: 0 0
+Converted payload: 03 00 03 c3 00 0a 13 87 00
+Time lapse: 0:00:00.428373; Wheel spin: 963; Speed: 67.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 97
+Raw frame:  36 61 00 43 46 43 00 46 e7 43 4d 56 cb 43 60
+Padding bytes: 0 0
+Converted payload: 03 00 03 a4 00 0a 13 88 00
+Time lapse: 0:00:00.429978; Wheel spin: 932; Speed: 65.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 98
+Raw frame:  36 62 00 7c 7f 7c 00 7f 00 7c 86 8f 04 7c 59
+Padding bytes: 0 0
+Converted payload: 03 00 03 83 00 0a 13 87 00
+Time lapse: 0:00:00.429890; Wheel spin: 899; Speed: 63.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 99
+Raw frame:  36 63 00 41 44 41 00 44 bd 41 4b 54 c9 41 3e
+Padding bytes: 0 0
+Converted payload: 03 00 03 7c 00 0a 13 88 00
+Time lapse: 0:00:00.428910; Wheel spin: 892; Speed: 62.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 100
+Raw frame:  36 64 00 4a 4d 4a 00 4d ba 4a 54 5d d2 4a 33
+Padding bytes: 0 0
+Converted payload: 03 00 03 70 00 0a 13 88 00
+Time lapse: 0:00:00.428860; Wheel spin: 880; Speed: 61.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 101
+Raw frame:  36 65 00 4f 52 4f 00 52 b7 4f 59 62 d7 4f 08
+Padding bytes: 0 0
+Converted payload: 03 00 03 68 00 0a 13 88 00
+Time lapse: 0:00:00.430532; Wheel spin: 872; Speed: 61.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 102
+Raw frame:  36 66 00 48 4b 48 00 4b b0 48 52 5b d0 48 39
+Padding bytes: 0 0
+Converted payload: 03 00 03 68 00 0a 13 88 00
+Time lapse: 0:00:00.428472; Wheel spin: 872; Speed: 61.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 103
+Raw frame:  36 67 00 4d 50 4d 00 50 b9 4d 57 60 d5 4d 0a
+Padding bytes: 0 0
+Converted payload: 03 00 03 6c 00 0a 13 88 00
+Time lapse: 0:00:00.430056; Wheel spin: 876; Speed: 61.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 104
+Raw frame:  36 68 00 46 49 46 00 49 c2 46 50 59 ce 46 5b
+Padding bytes: 0 0
+Converted payload: 03 00 03 7c 00 0a 13 88 00
+Time lapse: 0:00:00.428213; Wheel spin: 892; Speed: 62.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 105
+Raw frame:  36 69 00 4b 4e 4b 00 4e d7 4b 55 5e d3 4b 50
+Padding bytes: 0 0
+Converted payload: 03 00 03 8c 00 0a 13 88 00
+Time lapse: 0:00:00.428611; Wheel spin: 908; Speed: 63.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 106
+Raw frame:  36 6a 00 44 47 44 00 47 f4 44 4f 57 cc 44 7c
+Padding bytes: 0 0
+Converted payload: 03 00 03 b0 00 0b 13 88 00
+Time lapse: 0:00:00.429883; Wheel spin: 944; Speed: 66.1; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 107
+Raw frame:  36 6b 00 49 4c 49 00 4c 01 49 53 5c d1 49 82
+Padding bytes: 0 0
+Converted payload: 03 00 03 b7 00 0a 13 88 00
+Time lapse: 0:00:00.430578; Wheel spin: 951; Speed: 66.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 108
+Raw frame:  36 6c 00 72 75 72 00 75 32 72 7c 85 fa 72 6b
+Padding bytes: 0 0
+Converted payload: 03 00 03 bf 00 0a 13 88 00
+Time lapse: 0:00:00.430510; Wheel spin: 959; Speed: 67.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 109
+Raw frame:  36 6d 00 77 7a 77 00 7a 43 77 81 8a ff 77 ec
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 88 00
+Time lapse: 0:00:00.430833; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 110
+Raw frame:  36 6e 00 70 73 70 00 73 00 70 7a 83 f8 70 59
+Padding bytes: 0 0
+Converted payload: 03 00 03 8f 00 0a 13 88 00
+Time lapse: 0:00:00.430354; Wheel spin: 911; Speed: 63.8; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 111
+Raw frame:  36 6f 00 75 78 75 00 78 cd 75 7f 88 fd 75 9e
+Padding bytes: 0 0
+Converted payload: 03 00 03 58 00 0a 13 88 00
+Time lapse: 0:00:00.428171; Wheel spin: 856; Speed: 60.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 112
+Raw frame:  36 70 00 6e 71 6e 00 71 9a 6e 78 81 f6 6e d3
+Padding bytes: 0 0
+Converted payload: 03 00 03 2c 00 0a 13 88 00
+Time lapse: 0:00:00.428731; Wheel spin: 812; Speed: 56.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 113
+Raw frame:  36 71 00 73 76 73 00 75 5b 73 7d 86 fb 73 1f
+Padding bytes: 0 0
+Converted payload: 03 00 02 e7 00 0a 13 88 00
+Time lapse: 0:00:00.428266; Wheel spin: 743; Speed: 52.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 114
+Raw frame:  36 72 00 6c 6f 6c 00 6e 30 6c 76 7f f4 6c 88
+Padding bytes: 0 0
+Converted payload: 03 00 02 c3 00 0a 13 88 00
+Time lapse: 0:00:00.426096; Wheel spin: 707; Speed: 49.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 115
+Raw frame:  36 73 00 71 74 71 00 73 29 71 7b 84 f9 71 6d
+Padding bytes: 0 0
+Converted payload: 03 00 02 b7 00 0a 13 88 00
+Time lapse: 0:00:00.426961; Wheel spin: 695; Speed: 48.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 116
+Raw frame:  36 74 00 7a 7d 7a 00 7c 4e 7a 84 8d 02 7a 06
+Padding bytes: 0 0
+Converted payload: 03 00 02 d3 00 0a 13 87 00
+Time lapse: 0:00:00.425551; Wheel spin: 723; Speed: 50.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 117
+Raw frame:  36 75 00 7f 82 7f 00 82 83 7f 8a 92 07 7f df
+Padding bytes: 0 0
+Converted payload: 03 00 03 04 00 0b 13 87 00
+Time lapse: 0:00:00.428566; Wheel spin: 772; Speed: 54.1; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 118
+Raw frame:  36 76 00 78 7b 78 00 7b b4 78 84 8b 00 78 fb
+Padding bytes: 0 0
+Converted payload: 03 00 03 3c 00 0c 13 87 00
+Time lapse: 0:00:00.429869; Wheel spin: 828; Speed: 58.0; Power: 12; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 119
+Raw frame:  36 77 00 7d 80 7d 00 80 15 7d 89 90 05 7d 48
+Padding bytes: 0 0
+Converted payload: 03 00 03 97 00 0c 13 87 00
+Time lapse: 0:00:00.429692; Wheel spin: 919; Speed: 64.4; Power: 12; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 120
+Raw frame:  36 78 00 76 79 76 00 79 1e 76 80 89 fe 76 a7
+Padding bytes: 0 0
+Converted payload: 03 00 03 a7 00 0a 13 88 00
+Time lapse: 0:00:00.427807; Wheel spin: 935; Speed: 65.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 121
+Raw frame:  36 79 00 7b 7e 7b 00 7e 37 7b 85 8e 03 7b 70
+Padding bytes: 0 0
+Converted payload: 03 00 03 bb 00 0a 13 87 00
+Time lapse: 0:00:00.428500; Wheel spin: 955; Speed: 66.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 122
+Raw frame:  36 7a 00 74 77 74 00 77 3c 74 7e 87 fc 74 75
+Padding bytes: 0 0
+Converted payload: 03 00 03 c7 00 0a 13 88 00
+Time lapse: 0:00:00.430301; Wheel spin: 967; Speed: 67.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 123
+Raw frame:  36 7b 00 79 7c 79 00 7c 41 79 83 8c 01 79 02
+Padding bytes: 0 0
+Converted payload: 03 00 03 c7 00 0a 13 87 00
+Time lapse: 0:00:00.428942; Wheel spin: 967; Speed: 67.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 124
+Raw frame:  36 7c 00 22 25 22 00 25 ee 22 2c 35 aa 22 17
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.430096; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 125
+Raw frame:  36 7d 00 27 2a 27 00 2a fb 27 31 3a af 27 14
+Padding bytes: 0 0
+Converted payload: 03 00 03 d4 00 0a 13 88 00
+Time lapse: 0:00:00.428967; Wheel spin: 980; Speed: 68.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 126
+Raw frame:  36 7e 00 20 23 20 00 23 f0 20 2a 33 a8 20 09
+Padding bytes: 0 0
+Converted payload: 03 00 03 d0 00 0a 13 88 00
+Time lapse: 0:00:00.430224; Wheel spin: 976; Speed: 68.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 127
+Raw frame:  36 7f 00 25 28 25 00 28 f1 25 2f 38 ad 25 02
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.428837; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 128
+Raw frame:  36 80 00 5e 61 5e 00 61 2e 5e 68 71 e6 5e 67
+Padding bytes: 0 0
+Converted payload: 03 00 03 cf 00 0a 13 88 00
+Time lapse: 0:00:00.429137; Wheel spin: 975; Speed: 68.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 129
+Raw frame:  36 81 00 23 26 23 00 26 f7 23 2d 36 ab 23 f0
+Padding bytes: 0 0
+Converted payload: 03 00 03 d4 00 0a 13 88 00
+Time lapse: 0:00:00.429060; Wheel spin: 980; Speed: 68.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 130
+Raw frame:  36 82 00 5c 5f 5c 00 5f 30 5c 66 6f e4 5c 69
+Padding bytes: 0 0
+Converted payload: 03 00 03 d3 00 0a 13 88 00
+Time lapse: 0:00:00.428677; Wheel spin: 979; Speed: 68.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 131
+Raw frame:  36 83 00 21 24 21 00 24 f1 21 2b 34 a9 21 f2
+Padding bytes: 0 0
+Converted payload: 03 00 03 d0 00 0a 13 88 00
+Time lapse: 0:00:00.430378; Wheel spin: 976; Speed: 68.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 132
+Raw frame:  36 84 00 2a 2d 2a 00 2d fe 2a 34 3d b2 2a f7
+Padding bytes: 0 0
+Converted payload: 03 00 03 d4 00 0a 13 88 00
+Time lapse: 0:00:00.429367; Wheel spin: 980; Speed: 68.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 133
+Raw frame:  36 85 00 2f 32 2f 00 32 ff 2f 39 42 b7 2f 80
+Padding bytes: 0 0
+Converted payload: 03 00 03 d0 00 0a 13 88 00
+Time lapse: 0:00:00.429526; Wheel spin: 976; Speed: 68.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 134
+Raw frame:  36 86 00 28 2b 28 00 2b f8 28 32 3b b0 28 f1
+Padding bytes: 0 0
+Converted payload: 03 00 03 d0 00 0a 13 88 00
+Time lapse: 0:00:00.431939; Wheel spin: 976; Speed: 68.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 135
+Raw frame:  36 87 00 2d 30 2d 00 30 c9 2d 37 40 b5 2d ba
+Padding bytes: 0 0
+Converted payload: 03 00 03 9c 00 0a 13 88 00
+Time lapse: 0:00:00.428988; Wheel spin: 924; Speed: 64.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 136
+Raw frame:  36 88 00 26 29 26 00 29 8e 26 32 39 ae 26 95
+Padding bytes: 0 0
+Converted payload: 03 00 03 68 00 0c 13 88 00
+Time lapse: 0:00:00.428469; Wheel spin: 872; Speed: 61.1; Power: 12; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 137
+Raw frame:  36 89 00 2b 2e 2b 00 2e d3 2b 36 3e b3 2b d7
+Padding bytes: 0 0
+Converted payload: 03 00 03 a8 00 0b 13 88 00
+Time lapse: 0:00:00.428952; Wheel spin: 936; Speed: 65.6; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 138
+Raw frame:  36 8a 00 24 27 24 00 27 d0 24 2e 37 ac 24 d9
+Padding bytes: 0 0
+Converted payload: 03 00 03 ac 00 0a 13 88 00
+Time lapse: 0:00:00.430822; Wheel spin: 940; Speed: 65.8; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 139
+Raw frame:  36 8b 00 29 2c 29 00 2c 89 29 33 3c b1 29 8a
+Padding bytes: 0 0
+Converted payload: 03 00 03 60 00 0a 13 88 00
+Time lapse: 0:00:00.488767; Wheel spin: 864; Speed: 60.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 140
+Raw frame:  36 8c 00 52 55 52 00 57 a6 52 63 65 da 52 c2
+Padding bytes: 0 0
+Converted payload: 03 00 05 54 00 11 13 88 00
+Time lapse: 0:00:00.435331; Wheel spin: 1364; Speed: 95.5; Power: 17; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 141
+Raw frame:  36 8d 00 57 5a 57 00 5b a3 57 61 6a df 57 cd
+Padding bytes: 0 0
+Converted payload: 03 00 04 4c 00 0a 13 88 00
+Time lapse: 0:00:00.432615; Wheel spin: 1100; Speed: 77.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 142
+Raw frame:  36 8e 00 50 53 50 00 53 40 50 5a 63 d8 50 19
+Padding bytes: 0 0
+Converted payload: 03 00 03 ef 00 0a 13 88 00
+Time lapse: 0:00:00.428350; Wheel spin: 1007; Speed: 70.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 143
+Raw frame:  36 8f 00 55 58 55 00 58 e5 55 5f 68 dd 55 b6
+Padding bytes: 0 0
+Converted payload: 03 00 03 90 00 0a 13 88 00
+Time lapse: 0:00:00.428114; Wheel spin: 912; Speed: 63.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 144
+Raw frame:  36 90 00 4e 51 4e 00 51 a2 4e 58 61 d6 4e eb
+Padding bytes: 0 0
+Converted payload: 03 00 03 54 00 0a 13 88 00
+Time lapse: 0:00:00.427784; Wheel spin: 852; Speed: 59.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 145
+Raw frame:  36 91 00 53 56 53 00 56 e3 53 5d 66 db 53 a4
+Padding bytes: 0 0
+Converted payload: 03 00 03 90 00 0a 13 88 00
+Time lapse: 0:00:00.428940; Wheel spin: 912; Speed: 63.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 146
+Raw frame:  36 92 00 4c 4f 4c 00 4f 98 4c 56 5f d4 4c e1
+Padding bytes: 0 0
+Converted payload: 03 00 03 4c 00 0a 13 88 00
+Time lapse: 0:00:00.427855; Wheel spin: 844; Speed: 59.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 147
+Raw frame:  36 93 00 51 54 51 00 54 dd 51 5b 64 d9 51 9e
+Padding bytes: 0 0
+Converted payload: 03 00 03 8c 00 0a 13 88 00
+Time lapse: 0:00:00.429594; Wheel spin: 908; Speed: 63.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 148
+Raw frame:  36 94 00 5a 5d 5a 00 5d 9e 5a 64 6d e2 5a d7
+Padding bytes: 0 0
+Converted payload: 03 00 03 44 00 0a 13 88 00
+Time lapse: 0:00:00.427662; Wheel spin: 836; Speed: 58.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 149
+Raw frame:  36 95 00 5f 62 5f 00 62 e7 5f 6b 72 e7 5f ba
+Padding bytes: 0 0
+Converted payload: 03 00 03 88 00 0c 13 88 00
+Time lapse: 0:00:00.429422; Wheel spin: 904; Speed: 63.3; Power: 12; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 150
+Raw frame:  36 96 00 58 5b 58 00 5b 08 58 63 6b e0 58 40
+Padding bytes: 0 0
+Converted payload: 03 00 03 af 00 0b 13 88 00
+Time lapse: 0:00:00.430572; Wheel spin: 943; Speed: 66.0; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 151
+Raw frame:  36 97 00 5d 60 5d 00 60 1d 5d 67 70 e5 5d 4e
+Padding bytes: 0 0
+Converted payload: 03 00 03 bf 00 0a 13 88 00
+Time lapse: 0:00:00.429486; Wheel spin: 959; Speed: 67.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 152
+Raw frame:  36 98 00 56 59 56 00 59 1e 56 60 69 de 56 67
+Padding bytes: 0 0
+Converted payload: 03 00 03 c7 00 0a 13 88 00
+Time lapse: 0:00:00.428799; Wheel spin: 967; Speed: 67.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 153
+Raw frame:  36 99 00 5b 5e 5b 00 5e 2b 5b 65 6e e3 5b 6c
+Padding bytes: 0 0
+Converted payload: 03 00 03 cf 00 0a 13 88 00
+Time lapse: 0:00:00.428972; Wheel spin: 975; Speed: 68.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 154
+Raw frame:  36 9a 00 54 57 54 00 57 e4 54 5e 67 dc 54 ad
+Padding bytes: 0 0
+Converted payload: 03 00 03 90 00 0a 13 88 00
+Time lapse: 0:00:00.429955; Wheel spin: 912; Speed: 63.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 155
+Raw frame:  36 9b 00 59 5c 59 00 5c a5 59 63 6c e1 59 e6
+Padding bytes: 0 0
+Converted payload: 03 00 03 4c 00 0a 13 88 00
+Time lapse: 0:00:00.427832; Wheel spin: 844; Speed: 59.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 156
+Raw frame:  36 9c 00 02 05 02 00 05 16 02 0c 15 8a 02 2f
+Padding bytes: 0 0
+Converted payload: 03 00 03 14 00 0a 13 88 00
+Time lapse: 0:00:00.428903; Wheel spin: 788; Speed: 55.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 157
+Raw frame:  36 9d 00 07 0a 07 00 09 e3 07 11 1a 8f 07 cf
+Padding bytes: 0 0
+Converted payload: 03 00 02 dc 00 0a 13 88 00
+Time lapse: 0:00:00.425861; Wheel spin: 732; Speed: 51.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 158
+Raw frame:  36 9e 00 00 03 00 00 02 bc 00 0a 13 88 00 84
+Padding bytes: 0 0
+Converted payload: 03 00 02 bc 00 0a 13 88 00
+Time lapse: 0:00:00.434129; Wheel spin: 700; Speed: 49.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 159
+Raw frame:  36 9f 00 05 08 05 00 07 f9 05 29 18 8d 05 e3
+Padding bytes: 0 0
+Converted payload: 03 00 02 f4 00 24 13 88 00
+Time lapse: 0:00:00.486159; Wheel spin: 756; Speed: 53.0; Power: 36; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 160
+Raw frame:  36 a0 00 3e 41 3e 00 42 ca 3e 48 51 c6 3e 80
+Padding bytes: 0 0
+Converted payload: 03 00 04 8c 00 0a 13 88 00
+Time lapse: 0:00:00.433277; Wheel spin: 1164; Speed: 81.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 161
+Raw frame:  36 a1 00 03 06 03 00 07 2b 03 0d 16 8b 03 2d
+Padding bytes: 0 0
+Converted payload: 03 00 04 28 00 0a 13 88 00
+Time lapse: 0:00:00.431965; Wheel spin: 1064; Speed: 74.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 162
+Raw frame:  36 a2 00 3c 3f 3c 00 3f 10 3c 46 4f c4 3c 49
+Padding bytes: 0 0
+Converted payload: 03 00 03 d3 00 0a 13 88 00
+Time lapse: 0:00:00.432382; Wheel spin: 979; Speed: 68.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 163
+Raw frame:  36 a3 00 01 04 01 00 04 75 01 0b 14 89 01 76
+Padding bytes: 0 0
+Converted payload: 03 00 03 74 00 0a 13 88 00
+Time lapse: 0:00:00.428595; Wheel spin: 884; Speed: 61.9; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 164
+Raw frame:  36 a4 00 0a 0d 0a 00 0d 42 0a 14 1d 92 0a 4b
+Padding bytes: 0 0
+Converted payload: 03 00 03 38 00 0a 13 88 00
+Time lapse: 0:00:00.427754; Wheel spin: 824; Speed: 57.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 165
+Raw frame:  36 a5 00 0f 12 0f 00 12 1b 0f 19 22 97 0f 24
+Padding bytes: 0 0
+Converted payload: 03 00 03 0c 00 0a 13 88 00
+Time lapse: 0:00:00.428456; Wheel spin: 780; Speed: 54.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 166
+Raw frame:  36 a6 00 08 0b 08 00 0b 20 08 12 1b 90 08 29
+Padding bytes: 0 0
+Converted payload: 03 00 03 18 00 0a 13 88 00
+Time lapse: 0:00:00.425638; Wheel spin: 792; Speed: 55.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 167
+Raw frame:  36 a7 00 0d 10 0d 00 10 49 0d 18 20 95 0d 75
+Padding bytes: 0 0
+Converted payload: 03 00 03 3c 00 0b 13 88 00
+Time lapse: 0:00:00.427871; Wheel spin: 828; Speed: 58.0; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 168
+Raw frame:  36 a8 00 06 09 06 00 09 7e 06 13 19 8e 06 64
+Padding bytes: 0 0
+Converted payload: 03 00 03 78 00 0d 13 88 00
+Time lapse: 0:00:00.428476; Wheel spin: 888; Speed: 62.2; Power: 13; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 169
+Raw frame:  36 a9 00 0b 0e 0b 00 0e af 0b 0b 1e 93 0b b6
+Padding bytes: 0 0
+Converted payload: 03 00 03 a4 00 00 13 88 00
+Time lapse: 0:00:00.429795; Wheel spin: 932; Speed: 65.3; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 170
+Raw frame:  36 aa 00 04 0f 04 00 07 44 04 04 17 8c 04 4f
+Padding bytes: 0 0
+Converted payload: 0b 00 03 40 00 00 13 88 00
+Time lapse: 0:00:00.427993; Wheel spin: 832; Speed: 58.3; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 171
+Raw frame:  36 ab 00 09 14 09 00 0b f9 09 09 1c 91 09 ff
+Padding bytes: 0 0
+Converted payload: 0b 00 02 f0 00 00 13 88 00
+Time lapse: 0:00:00.426987; Wheel spin: 752; Speed: 52.7; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 172
+Raw frame:  36 ac 00 32 3d 32 00 34 ce 32 32 45 ba 32 90
+Padding bytes: 0 0
+Converted payload: 0b 00 02 9c 00 00 13 88 00
+Time lapse: 0:00:00.425664; Wheel spin: 668; Speed: 46.8; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 173
+Raw frame:  36 ad 00 37 42 37 00 39 73 37 37 4a bf 37 51
+Padding bytes: 0 0
+Converted payload: 0b 00 02 3c 00 00 13 88 00
+Time lapse: 0:00:00.426318; Wheel spin: 572; Speed: 40.1; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 174
+Raw frame:  36 ae 00 30 3b 30 00 31 28 30 30 43 b8 30 71
+Padding bytes: 0 0
+Converted payload: 0b 00 01 f7 00 00 13 88 00
+Time lapse: 0:00:00.424715; Wheel spin: 503; Speed: 35.2; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 175
+Raw frame:  36 af 00 35 40 35 00 36 e9 35 35 48 bd 35 c6
+Padding bytes: 0 0
+Converted payload: 0b 00 01 b4 00 00 13 88 00
+Time lapse: 0:00:00.424460; Wheel spin: 436; Speed: 30.5; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 176
+Raw frame:  36 b0 00 2e 39 2e 00 2f 92 2e 2e 41 b6 2e db
+Padding bytes: 0 0
+Converted payload: 0b 00 01 64 00 00 13 88 00
+Time lapse: 0:00:00.423564; Wheel spin: 356; Speed: 24.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 177
+Raw frame:  36 b1 00 33 3e 33 00 34 5f 33 33 46 bb 33 1c
+Padding bytes: 0 0
+Converted payload: 0b 00 01 2c 00 00 13 88 00
+Time lapse: 0:00:00.421315; Wheel spin: 300; Speed: 21.0; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 178
+Raw frame:  36 b2 00 2c 37 2c 00 2c 28 2c 2c 3f b4 2c 10
+Padding bytes: 0 0
+Converted payload: 0b 00 00 fb 00 00 13 88 00
+Time lapse: 0:00:00.423117; Wheel spin: 251; Speed: 17.6; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 179
+Raw frame:  36 b3 00 31 3c 31 00 31 ed 31 31 44 b9 31 a9
+Padding bytes: 0 0
+Converted payload: 0b 00 00 bc 00 00 13 88 00
+Time lapse: 0:00:00.420391; Wheel spin: 188; Speed: 13.2; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 180
+Raw frame:  36 b4 00 3a 45 3a 00 3a ca 3a 3a 4d c2 3a 82
+Padding bytes: 0 0
+Converted payload: 0b 00 00 90 00 00 13 88 00
+Time lapse: 0:00:00.420517; Wheel spin: 144; Speed: 10.1; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 181
+Raw frame:  36 b5 00 3f 42 3f 00 3f 97 3f 3f 52 c7 3f c3
+Padding bytes: 0 0
+Converted payload: 03 00 00 58 00 00 13 88 00
+Time lapse: 0:00:00.419888; Wheel spin: 88; Speed: 6.2; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 182
+Raw frame:  36 b6 00 38 3b 38 00 38 6c 38 38 4b c0 38 5c
+Padding bytes: 0 0
+Converted payload: 03 00 00 34 00 00 13 88 00
+Time lapse: 0:00:00.418522; Wheel spin: 52; Speed: 3.6; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 183
+Raw frame:  36 b7 00 3d 40 3d 00 3d 4d 3d 3d 50 c5 3d 19
+Padding bytes: 0 0
+Converted payload: 03 00 00 10 00 00 13 88 00
+Time lapse: 0:00:00.418005; Wheel spin: 16; Speed: 1.1; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 184
+Raw frame:  36 b8 00 36 39 36 00 36 36 36 36 49 be 36 76
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417934; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 185
+Raw frame:  36 b9 00 3b 3e 3b 00 3b 3b 3b 3b 4e c3 3b 07
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417910; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 186
+Raw frame:  36 ba 00 34 37 34 00 34 34 34 34 47 bc 34 74
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418023; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 187
+Raw frame:  36 bb 00 39 3c 39 00 39 39 39 39 4c c1 39 05
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417825; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 188
+Raw frame:  36 bc 00 62 65 62 00 62 62 62 62 75 ea 62 12
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.417627; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 189
+Raw frame:  36 bd 00 67 6a 67 00 67 67 67 67 7a ef 67 13
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418159; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 190
+Raw frame:  36 be 00 60 63 60 00 60 60 60 60 73 e8 60 10
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.419545; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 191
+Raw frame:  36 bf 00 65 68 65 00 65 d1 65 6f 78 ed 65 af
+Padding bytes: 0 0
+Converted payload: 03 00 00 6c 00 0a 13 88 00
+Time lapse: 0:00:00.420646; Wheel spin: 108; Speed: 7.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 192
+Raw frame:  36 c0 00 1e 21 1e 00 1e 92 1e 28 31 a6 1e e4
+Padding bytes: 0 0
+Converted payload: 03 00 00 74 00 0a 13 88 00
+Time lapse: 0:00:00.421583; Wheel spin: 116; Speed: 8.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 193
+Raw frame:  36 c1 00 63 66 63 00 63 ef 63 6d 76 eb 63 ed
+Padding bytes: 0 0
+Converted payload: 03 00 00 8c 00 0a 13 88 00
+Time lapse: 0:00:00.420314; Wheel spin: 140; Speed: 9.8; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 194
+Raw frame:  36 c2 00 1c 1f 1c 00 1c bc 1c 26 2f a4 1c e6
+Padding bytes: 0 0
+Converted payload: 03 00 00 a0 00 0a 13 88 00
+Time lapse: 0:00:00.419781; Wheel spin: 160; Speed: 11.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 195
+Raw frame:  36 c3 00 61 64 61 00 61 1d 61 6b 74 e9 61 1b
+Padding bytes: 0 0
+Converted payload: 03 00 00 bb 00 0a 13 88 00
+Time lapse: 0:00:00.421543; Wheel spin: 187; Speed: 13.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 196
+Raw frame:  36 c4 00 6a 6d 6a 00 6b 6e 6a 74 7d f2 6a 61
+Padding bytes: 0 0
+Converted payload: 03 00 01 04 00 0a 13 88 00
+Time lapse: 0:00:00.420778; Wheel spin: 260; Speed: 18.2; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 197
+Raw frame:  36 c5 00 6f 72 6f 00 70 cf 6f 79 82 f7 6f 32
+Padding bytes: 0 0
+Converted payload: 03 00 01 60 00 0a 13 88 00
+Time lapse: 0:00:00.421051; Wheel spin: 352; Speed: 24.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 198
+Raw frame:  36 c6 00 68 6b 68 00 69 f0 68 72 7b f0 68 fb
+Padding bytes: 0 0
+Converted payload: 03 00 01 88 00 0a 13 88 00
+Time lapse: 0:00:00.424477; Wheel spin: 392; Speed: 27.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 199
+Raw frame:  36 c7 00 6d 70 6d 00 6e 29 6d 77 80 f5 6d c4
+Padding bytes: 0 0
+Converted payload: 03 00 01 bb 00 0a 13 88 00
+Time lapse: 0:00:00.423789; Wheel spin: 443; Speed: 31.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 200
+Raw frame:  36 c8 00 66 69 66 00 67 56 66 70 79 ee 66 41
+Padding bytes: 0 0
+Converted payload: 03 00 01 ef 00 0a 13 88 00
+Time lapse: 0:00:00.424227; Wheel spin: 495; Speed: 34.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 201
+Raw frame:  36 c9 00 6b 6e 6b 00 6d 9f 6b 75 7e f3 6b 9b
+Padding bytes: 0 0
+Converted payload: 03 00 02 34 00 0a 13 88 00
+Time lapse: 0:00:00.424258; Wheel spin: 564; Speed: 39.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 202
+Raw frame:  36 ca 00 64 67 64 00 66 10 64 6e 77 ec 64 18
+Padding bytes: 0 0
+Converted payload: 03 00 02 ab 00 0a 13 88 00
+Time lapse: 0:00:00.426572; Wheel spin: 683; Speed: 47.8; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 203
+Raw frame:  36 cb 00 69 6c 69 00 6b 65 69 73 7c f1 69 61
+Padding bytes: 0 0
+Converted payload: 03 00 02 fb 00 0a 13 88 00
+Time lapse: 0:00:00.425789; Wheel spin: 763; Speed: 53.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 204
+Raw frame:  36 cc 00 12 15 12 00 15 2a 12 1c 25 9a 12 73
+Padding bytes: 0 0
+Converted payload: 03 00 03 18 00 0a 13 88 00
+Time lapse: 0:00:00.425556; Wheel spin: 792; Speed: 55.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 205
+Raw frame:  36 cd 00 17 1a 17 00 1a 4b 17 21 2a 9f 17 24
+Padding bytes: 0 0
+Converted payload: 03 00 03 34 00 0a 13 88 00
+Time lapse: 0:00:00.427525; Wheel spin: 820; Speed: 57.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 206
+Raw frame:  36 ce 00 10 13 10 00 13 90 10 1b 23 98 10 c8
+Padding bytes: 0 0
+Converted payload: 03 00 03 80 00 0b 13 88 00
+Time lapse: 0:00:00.430927; Wheel spin: 896; Speed: 62.8; Power: 11; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 207
+Raw frame:  36 cf 00 15 18 15 00 18 c5 15 1f 28 9d 15 96
+Padding bytes: 0 0
+Converted payload: 03 00 03 b0 00 0a 13 88 00
+Time lapse: 0:00:00.431318; Wheel spin: 944; Speed: 66.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 208
+Raw frame:  36 d0 00 0e 11 0e 00 11 c6 0e 18 21 96 0e 8f
+Padding bytes: 0 0
+Converted payload: 03 00 03 b8 00 0a 13 88 00
+Time lapse: 0:00:00.429840; Wheel spin: 952; Speed: 66.7; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 209
+Raw frame:  36 d1 00 13 16 13 00 16 d7 13 1d 26 9b 13 90
+Padding bytes: 0 0
+Converted payload: 03 00 03 c4 00 0a 13 88 00
+Time lapse: 0:00:00.430019; Wheel spin: 964; Speed: 67.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 210
+Raw frame:  36 d2 00 0c 0f 0c 00 0f d0 0c 16 1f 94 0c a9
+Padding bytes: 0 0
+Converted payload: 03 00 03 c4 00 0a 13 88 00
+Time lapse: 0:00:00.430372; Wheel spin: 964; Speed: 67.5; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 211
+Raw frame:  36 d3 00 11 14 11 00 14 dd 11 1b 24 99 11 9e
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.429005; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 212
+Raw frame:  36 d4 00 1a 1d 1a 00 1d e6 1a 24 2d a2 1a af
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.428747; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 213
+Raw frame:  36 d5 00 1f 22 1f 00 22 ef 1f 29 32 a7 1f b0
+Padding bytes: 0 0
+Converted payload: 03 00 03 d0 00 0a 13 88 00
+Time lapse: 0:00:00.429571; Wheel spin: 976; Speed: 68.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 214
+Raw frame:  36 d6 00 18 1b 18 00 1b e4 18 22 2b a0 18 ad
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.430095; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 215
+Raw frame:  36 d7 00 1d 20 1d 00 20 e9 1d 27 30 a5 1d ba
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.430642; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 216
+Raw frame:  36 d8 00 16 19 16 00 19 e2 16 20 29 9e 16 9b
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.429659; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 217
+Raw frame:  36 d9 00 1b 1e 1b 00 1e e7 1b 25 2e a3 1b a0
+Padding bytes: 0 0
+Converted payload: 03 00 03 cc 00 0a 13 88 00
+Time lapse: 0:00:00.430556; Wheel spin: 972; Speed: 68.1; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 218
+Raw frame:  36 da 00 14 17 14 00 17 e4 14 1e 27 9c 14 ad
+Padding bytes: 0 0
+Converted payload: 03 00 03 d0 00 0a 13 88 00
+Time lapse: 0:00:00.429194; Wheel spin: 976; Speed: 68.4; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 219
+Raw frame:  36 db 00 19 1c 19 00 1c ed 19 23 2c a1 19 ae
+Padding bytes: 0 0
+Converted payload: 03 00 03 d4 00 0a 13 88 00
+Time lapse: 0:00:00.431121; Wheel spin: 980; Speed: 68.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 220
+Raw frame:  36 dc 00 42 45 42 00 45 12 42 4c 55 ca 42 2b
+Padding bytes: 0 0
+Converted payload: 03 00 03 cf 00 0a 13 88 00
+Time lapse: 0:00:00.429829; Wheel spin: 975; Speed: 68.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 221
+Raw frame:  36 dd 00 47 4a 47 00 4a 1b 47 51 5a cf 47 34
+Padding bytes: 0 0
+Converted payload: 03 00 03 d3 00 0a 13 88 00
+Time lapse: 0:00:00.428823; Wheel spin: 979; Speed: 68.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 222
+Raw frame:  36 de 00 40 43 40 00 43 14 40 4a 53 c8 40 2d
+Padding bytes: 0 0
+Converted payload: 03 00 03 d3 00 0a 13 88 00
+Time lapse: 0:00:00.429535; Wheel spin: 979; Speed: 68.6; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 223
+Raw frame:  36 df 00 45 48 45 00 48 15 45 4f 58 cd 45 26
+Padding bytes: 0 0
+Converted payload: 03 00 03 cf 00 0a 13 88 00
+Time lapse: 0:00:00.429624; Wheel spin: 975; Speed: 68.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 224
+Raw frame:  36 e0 00 7e 81 7e 00 81 4a 7e 88 91 06 7e 83
+Padding bytes: 0 0
+Converted payload: 03 00 03 cb 00 0a 13 87 00
+Time lapse: 0:00:00.431156; Wheel spin: 971; Speed: 68.0; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 225
+Raw frame:  36 e1 00 43 46 43 00 46 13 43 4d 56 cb 43 14
+Padding bytes: 0 0
+Converted payload: 03 00 03 cf 00 0a 13 88 00
+Time lapse: 0:00:00.432223; Wheel spin: 975; Speed: 68.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 226
+Raw frame:  36 e2 00 7c 7f 7c 00 7f 4c 7c 86 8f 04 7c 95
+Padding bytes: 0 0
+Converted payload: 03 00 03 cf 00 0a 13 87 00
+Time lapse: 0:00:00.429337; Wheel spin: 975; Speed: 68.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 227
+Raw frame:  36 e3 00 41 44 41 00 44 11 41 4b 54 c9 41 12
+Padding bytes: 0 0
+Converted payload: 03 00 03 cf 00 0a 13 88 00
+Time lapse: 0:00:00.431249; Wheel spin: 975; Speed: 68.3; Power: 10; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 228
+Raw frame:  36 e4 00 4a 55 4a 00 4d 1a 4a 4a 5d d2 4a 15
+Padding bytes: 0 0
+Converted payload: 0b 00 03 cf 00 00 13 88 00
+Time lapse: 0:00:00.431218; Wheel spin: 975; Speed: 68.3; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 229
+Raw frame:  36 e5 00 4f 5a 4f 00 52 9b 4f 4f 62 d7 4f ba
+Padding bytes: 0 0
+Converted payload: 0b 00 03 4c 00 00 13 88 00
+Time lapse: 0:00:00.428328; Wheel spin: 844; Speed: 59.1; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 230
+Raw frame:  36 e6 00 48 53 48 00 4a 3c 48 48 5b d0 48 36
+Padding bytes: 0 0
+Converted payload: 0b 00 02 f3 00 00 13 88 00
+Time lapse: 0:00:00.426684; Wheel spin: 755; Speed: 52.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 231
+Raw frame:  36 e7 00 4d 58 4d 00 4f fd 4d 4d 60 d5 4d c3
+Padding bytes: 0 0
+Converted payload: 0b 00 02 b0 00 00 13 88 00
+Time lapse: 0:00:00.427728; Wheel spin: 688; Speed: 48.2; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 232
+Raw frame:  36 e8 00 46 51 46 00 48 a6 46 46 59 ce 46 b0
+Padding bytes: 0 0
+Converted payload: 0b 00 02 60 00 00 13 88 00
+Time lapse: 0:00:00.425895; Wheel spin: 608; Speed: 42.6; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 233
+Raw frame:  36 e9 00 4b 56 4b 00 4d 4b 4b 4b 5e d3 4b 49
+Padding bytes: 0 0
+Converted payload: 0b 00 02 00 00 00 13 88 00
+Time lapse: 0:00:00.424369; Wheel spin: 512; Speed: 35.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 234
+Raw frame:  36 ea 00 44 4f 44 00 45 00 44 44 57 cc 44 09
+Padding bytes: 0 0
+Converted payload: 0b 00 01 bb 00 00 13 88 00
+Time lapse: 0:00:00.423480; Wheel spin: 443; Speed: 31.0; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 235
+Raw frame:  36 eb 00 49 54 49 00 4a c9 49 49 5c d1 49 ce
+Padding bytes: 0 0
+Converted payload: 0b 00 01 80 00 00 13 88 00
+Time lapse: 0:00:00.423693; Wheel spin: 384; Speed: 26.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 236
+Raw frame:  36 ec 00 72 7d 72 00 73 aa 72 72 85 fa 72 73
+Padding bytes: 0 0
+Converted payload: 0b 00 01 38 00 00 13 88 00
+Time lapse: 0:00:00.421954; Wheel spin: 312; Speed: 21.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 237
+Raw frame:  36 ed 00 77 82 77 00 78 77 77 77 8a ff 77 54
+Padding bytes: 0 0
+Converted payload: 0b 00 01 00 00 00 13 88 00
+Time lapse: 0:00:00.421957; Wheel spin: 256; Speed: 17.9; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 238
+Raw frame:  36 ee 00 70 7b 70 00 70 30 70 70 83 f8 70 e8
+Padding bytes: 0 0
+Converted payload: 0b 00 00 bf 00 00 13 88 00
+Time lapse: 0:00:00.420557; Wheel spin: 191; Speed: 13.4; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 239
+Raw frame:  36 ef 00 75 80 75 00 75 09 75 75 88 fd 75 25
+Padding bytes: 0 0
+Converted payload: 0b 00 00 93 00 00 13 88 00
+Time lapse: 0:00:00.421210; Wheel spin: 147; Speed: 10.3; Power: 0; Turbo: 1; Regen: 1; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 240
+Raw frame:  36 f0 00 6e 71 6e 00 6e da 6e 6e 81 f6 6e 1a
+Padding bytes: 0 0
+Converted payload: 03 00 00 6c 00 00 13 88 00
+Time lapse: 0:00:00.419671; Wheel spin: 108; Speed: 7.6; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 241
+Raw frame:  36 f1 00 73 76 73 00 73 ab 73 73 86 fb 73 67
+Padding bytes: 0 0
+Converted payload: 03 00 00 38 00 00 13 88 00
+Time lapse: 0:00:00.418839; Wheel spin: 56; Speed: 3.9; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 242
+Raw frame:  36 f2 00 6c 6f 6c 00 6c 80 6c 6c 7f f4 6c a0
+Padding bytes: 0 0
+Converted payload: 03 00 00 14 00 00 13 88 00
+Time lapse: 0:00:00.417895; Wheel spin: 20; Speed: 1.4; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 243
+Raw frame:  36 f3 00 71 74 71 00 71 71 71 71 84 f9 71 bd
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 88 00
+Time lapse: 0:00:00.418170; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 5000.0
+Got frame nr: 244
+Raw frame:  36 f4 00 7a 7d 7a 00 7a 7a 7a 7a 8d 02 7a 4a
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 87 00
+Time lapse: 0:00:00.417888; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 245
+Raw frame:  36 f5 00 7f 82 7f 00 7f 7f 7f 7f 92 07 7f ab
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 87 00
+Time lapse: 0:00:00.417846; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+Got frame nr: 246
+Raw frame:  36 f6 00 78 7b 78 00 78 78 78 78 8b 00 78 48
+Padding bytes: 0 0
+Converted payload: 03 00 00 00 00 00 13 87 00
+Time lapse: 0:00:00.417922; Wheel spin: 0; Speed: 0.0; Power: 0; Turbo: 1; Regen: 0; Brakes: 0; Unknown field: 4999.0
+
