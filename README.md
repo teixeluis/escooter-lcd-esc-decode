@@ -87,8 +87,8 @@ the ESC.
 
 ## P-settings description
 
-Some scooter parameters are configurable via the LCD display via what is commonly refered
-as P-settings. These can be accessed by pressing both buttons (power and mode) on the
+Some scooter parameters are configurable via the LCD display through what is commonly 
+refered as P-settings. These can be accessed by pressing both buttons (power and mode) on the
 LCD unit for a few seconds. The using can then navigate up and down on the settings by
 pressing on power or mode respectively. 
 
