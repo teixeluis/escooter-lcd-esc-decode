@@ -89,7 +89,7 @@ the ESC.
 
 Some scooter parameters are configurable via the LCD display through what is commonly 
 refered as P-settings. These can be accessed by pressing both buttons (power and mode) on the
-LCD unit for a few seconds. The using can then navigate up and down on the settings by
+LCD unit for a few seconds. The user can then navigate up and down on the settings by
 pressing on power or mode respectively. 
 
 In order to change a setting, the power button needs to be pressed for a few seconds, and 
