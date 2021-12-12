@@ -195,7 +195,6 @@ B04 (7e) - Contains the following flags:
                b000000xx - Turbo  (xx = 11 -> on; x = 00 -> off)
                b0000x000 - Regen  (x = 1 -> on; x = 0 -> off)
                b00x00000 - Brakes (x = 1 -> on; x = 0 -> off)
-B04 (7e) - Subtract B03. Brakes and turbo mode flags: 0x20 - brakes on; 0x03 - turbo; 0x23 - brakes + turbo
 B05 (5b) - Subtract B03. Always reads 0x00
 B06 (00) - Fixed (padding apparently)
 B07 (5b) - Subtract B03. Proportional to wheel speed, most significant byte. 
