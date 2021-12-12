@@ -191,7 +191,7 @@ B02 (00) - Fixed (padding apparently)
 B03 (5b) - Entropy value (probably adopted as an extra measure to avoid framing errors). 
            The values in B04, B05 and B07 to B13 must be subtracted from this value to 
            obtain the payload. When value smaller than B03, add 0xFF.
-B04 (7e) - Contains the following flags:
+B04 (7e) - Subtract B03. Contains the following flags:
                b000000xx - Turbo  (xx = 11 -> on; x = 00 -> off)
                b0000x000 - Regen  (x = 1 -> on; x = 0 -> off)
                b00x00000 - Brakes (x = 1 -> on; x = 0 -> off)
