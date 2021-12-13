@@ -143,7 +143,7 @@ B01 (03) - Fixed
 B02 (00) - Sequence (00, 01, 02, ..., FF)
 B03 (00) - Fixed, always reads 0x00
 B04 (00) - Fixed, always reads 0x00
-B05 (85) - Not entirely random: pairs of consecutive frames alternate between having consecutive values and not having.
+B05 (85) - Encrypted gear value (0x05 -> gear 1; 0x0A -> gear 2; 0x0F -> gear 3)
 B06 (00) - Contains the following flags:
                 b000000x0 - pedal assist (P05 setting: x = 1 -> on; x = 0 -> off)
                 b00000x00 - cruise control (P06 setting: x = 1 -> on; x = 0 -> off)
@@ -164,15 +164,11 @@ Apparently the P-settings P00 to P04 are only used internally by the LCD for cal
 and actions done on its side (e.g. to determine the speed and present in the correct
 units), as these don't affect the values of the frames being transmitted.
 
-Regarding the gears it is still unknown how these are communicated to the speed controller, 
-as this data is not obviously visible in the frames sent by the LCD. There could be a 
-different type of frame being sent whenever the speed limit is reached, but this is yet 
-to be tested and observed. One possibility is that it could be obfuscated in B05. Because 
-manipulating this parameter would affect speed limits, it makes sense that in the protocol
-they might have taken that into account (for my particular scooter is irrelevant because
-it can run without limits just by flipping a switch). If it is the case, it is yet to be
-determined how the value is obfuscated/encrypted (take a look at the sample dumps under
-docs/serial_tap).
+Regarding the gears, this field is encrypted by a simple substitution cypher (i.e. similar
+to the Vigenère cipher). There is one offset value that needs to be subtracted from this
+byte. This offset is unique per each index represented by the 7 least significant bits of
+the frame sequence number (128 different offsets). If the original value is smaller than
+the offset, then we add 0xFF.
 
 2. ESC to LCD:
 
@@ -188,24 +184,24 @@ Structure:
 B00 (36) - Fixed
 B01 (19) - Sequence (00, 01, 02, ..., FF)
 B02 (00) - Fixed (padding apparently)
-B03 (5b) - Entropy value (probably adopted as an extra measure to avoid framing errors). 
-           The values in B04, B05 and B07 to B13 must be subtracted from this value to 
-           obtain the payload. When value smaller than B03, add 0xFF.
-B04 (7e) - Subtract B03. Contains the following flags:
+B03 (5b) - Encrypted field. Always reads 0x00 after decrypting.
+B04 (7e) - Encrypted status flags. Contains the following flags:
                b000000xx - Turbo  (xx = 11 -> on; x = 00 -> off)
                b0000x000 - Regen  (x = 1 -> on; x = 0 -> off)
                b00x00000 - Brakes (x = 1 -> on; x = 0 -> off)
-B05 (5b) - Subtract B03. Always reads 0x00
+B05 (5b) - Encrypted field. Always reads 0x00 after decrypting.
 B06 (00) - Fixed (padding apparently)
-B07 (5b) - Subtract B03. Proportional to wheel speed, most significant byte. 
-B08 (5b) - Subtract B03. Proportional to wheel speed, least significant byte (multiply by 1.33 to obtain speed in RPM).
-B09 (5b) - Subtract B03. Power/motor current most significant byte (?).
-B10 (65) - Subtract B03. Power/motor current least significant byte. Minimum value 0x0a when throttle pressed.
-B11 (6e) - Subtract B03. Usually reads 0x13. Battery voltage? Temperature?
-B12 (e3) - Subtract B03. Usually reads 0x87 or 0x88. Battery voltage? Temperature?
-B13 (5b) - Subtract B03. Always reads 0x00
+B07 (5b) - Encrypted field. Proportional to wheel speed, most significant byte. 
+B08 (5b) - Encrypted field. Proportional to wheel speed, least significant byte (multiply by 1.33 to obtain speed in RPM).
+B09 (5b) - Encrypted field. Power/motor current most significant byte (?).
+B10 (65) - Encrypted field. Power/motor current least significant byte. Minimum value 0x0a when throttle pressed.
+B11 (6e) - Encrypted field. Usually reads 0x13. Battery voltage? Temperature?
+B12 (e3) - Encrypted field. Usually reads 0x87 or 0x88. Battery voltage? Temperature?
+B13 (5b) - Encrypted field. Always reads 0x00 after decrypting.
 B14 (b9) - checksum (XOR of bytes B0 to B13)
 ```
+
+The same encryption method is used in these fields, but the key (map of offsets) is different.
 
 ## Serial data tap
 

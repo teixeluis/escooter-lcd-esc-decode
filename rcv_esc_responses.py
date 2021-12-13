@@ -55,18 +55,6 @@ last_frame = datetime.datetime.now()
 def decode_flag(byte_val, position):
     return byte_val >> position & b'\x01'[0]
 
-def convert_payload(orig_payload, entropy_val):
-    conv_payload = bytearray(PAYLOAD_SIZE)
-
-    for i in range(PAYLOAD_SIZE):
-        #conv_payload[i] = orig_payload[i] ^ entropy_val
-        if orig_payload[i] >= entropy_val:
-            conv_payload[i] =  orig_payload[i] - entropy_val
-        else:
-            conv_payload[i] = 255 + orig_payload[i] - entropy_val
-
-    return conv_payload
-
 def decrypt_payload(frame, orig_payload):
     conv_payload = bytearray(PAYLOAD_SIZE)
 
@@ -151,7 +139,6 @@ with serial.Serial(args.serial_port, BAUD_RATE, timeout=READ_TIMEOUT) as ser:
                 print(f'Calculated checksum: {checksum_calc}')
             else:
                 print(f'Padding bytes: {pad_byte_1} {pad_byte_2}')
-                #conv_payload = convert_payload(data_payload, entropy_key)
                 conv_payload = decrypt_payload(frame_seq, data_payload)
                 print('Converted payload: ' + binascii.hexlify(conv_payload, ' ').decode("utf-8"))
                 

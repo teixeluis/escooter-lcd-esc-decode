@@ -95,7 +95,7 @@ with serial.Serial(args.serial_port, BAUD_RATE, timeout=READ_TIMEOUT) as ser:
         #   print(f'Got the padding byte nr {frame_byte}.')
         elif frame_byte == 5:
             # Encrypted speed limiter field:
-            enc_speed_limiter = byte[0]
+            enc_gear = byte[0]
         #elif frame_byte == 6:
         #    print(f'Got the padding byte nr {frame_byte}.')
         elif frame_byte == 7:
@@ -129,11 +129,11 @@ with serial.Serial(args.serial_port, BAUD_RATE, timeout=READ_TIMEOUT) as ser:
                 print(f'Parsed checksum: {checksum}')
                 print(f'Calculated checksum: {checksum_calc}')
             else:
-                speed_limiter = decrypt_value(frame_seq, enc_speed_limiter)
+                gear = decrypt_value(frame_seq, enc_gear) & b'\x03'[0]
                 pas = decode_flag(raw_frame[6], FLAG_PAS)
                 cruise_ctl = decode_flag(raw_frame[6], FLAG_CRUISE_CTL)
                 soft_start = decode_flag(raw_frame[6], FLAG_SOFT_START)
-                print(f'Time lapse: {delta_time}; Speed limiter: {speed_limiter}; PAS: {pas}; Cruise Ctl: {cruise_ctl}; Soft start: {soft_start}; Power limit: {raw_frame[7]}; EABS: {raw_frame[10]}')
+                print(f'Time lapse: {delta_time}; Gear: {gear}; PAS: {pas}; Cruise Ctl: {cruise_ctl}; Soft start: {soft_start}; Power limit: {raw_frame[7]}; EABS: {raw_frame[10]}')
             frame_byte = 0
             checksum_calc = 0
             valid_frame = True
