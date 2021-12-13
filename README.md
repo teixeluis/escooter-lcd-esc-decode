@@ -125,7 +125,7 @@ frames.
 
 The frames have the following structure:
 
-1. LCD to ESC:
+**1. LCD to ESC:**
 
 Example:
 
@@ -170,7 +170,7 @@ byte. This offset is unique per each index represented by the 7 least significan
 the frame sequence number (128 different offsets). If the original value is smaller than
 the offset, then we add 0xFF.
 
-2. ESC to LCD:
+**2. ESC to LCD:**
 
 Example:
 
